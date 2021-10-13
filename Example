@@ -1,0 +1,1784 @@
+=== Verbose logging started: 9/13/2021  12:28:38  Build type: SHIP UNICODE 5.00.10011.00  Calling process: c:\090cbc94696687b6821f\Setup.exe ===
+MSI (c) (58:3C) [12:28:38:795]: Resetting cached policy values
+MSI (c) (58:3C) [12:28:38:795]: Machine policy value 'Debug' is 0
+MSI (c) (58:3C) [12:28:38:795]: ******* RunEngine:
+           ******* Product: c:\090cbc94696687b6821f\vc_red.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (c) (58:3C) [12:28:38:797]: Client-side and UI is none or basic: Running entire install on the server.
+MSI (c) (58:3C) [12:28:38:797]: Grabbed execution mutex.
+MSI (c) (58:3C) [12:28:39:226]: Cloaking enabled.
+MSI (c) (58:3C) [12:28:39:226]: Attempting to enable all disabled privileges before calling Install on Server
+MSI (c) (58:3C) [12:28:39:230]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (68:94) [12:28:39:294]: Running installation inside multi-package transaction c:\090cbc94696687b6821f\vc_red.msi
+MSI (s) (68:94) [12:28:39:294]: Grabbed execution mutex.
+MSI (s) (68:58) [12:28:39:300]: Resetting cached policy values
+MSI (s) (68:58) [12:28:39:300]: Machine policy value 'Debug' is 0
+MSI (s) (68:58) [12:28:39:300]: ******* RunEngine:
+           ******* Product: c:\090cbc94696687b6821f\vc_red.msi
+           ******* Action: 
+           ******* CommandLine: **********
+MSI (s) (68:58) [12:28:39:302]: Machine policy value 'DisableUserInstalls' is 0
+MSI (s) (68:58) [12:28:39:367]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (68:58) [12:28:39:369]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (68:58) [12:28:39:371]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer 3: 2 
+MSI (s) (68:58) [12:28:39:387]: File will have security applied from OpCode.
+MSI (s) (68:58) [12:28:39:392]: SOFTWARE RESTRICTION POLICY: Verifying package --> 'c:\090cbc94696687b6821f\vc_red.msi' against software restriction policy
+MSI (s) (68:58) [12:28:39:394]: SOFTWARE RESTRICTION POLICY: c:\090cbc94696687b6821f\vc_red.msi has a digital signature
+MSI (s) (68:58) [12:28:39:461]: SOFTWARE RESTRICTION POLICY: c:\090cbc94696687b6821f\vc_red.msi is permitted to run at the 'unrestricted' authorization level.
+MSI (s) (68:58) [12:28:39:492]: MSCOREE not loaded loading copy from system32
+MSI (s) (68:58) [12:28:39:668]: End dialog not enabled
+MSI (s) (68:58) [12:28:39:668]: Original package ==> c:\090cbc94696687b6821f\vc_red.msi
+MSI (s) (68:58) [12:28:39:668]: Package we're running from ==> c:\Windows\Installer\229499.msi
+MSI (s) (68:58) [12:28:39:697]: APPCOMPAT: Compatibility mode property overrides found.
+MSI (s) (68:58) [12:28:39:713]: APPCOMPAT: looking for appcompat database entry with ProductCode '{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}'.
+MSI (s) (68:58) [12:28:39:714]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (68:58) [12:28:40:145]: Machine policy value 'TransformsSecure' is 0
+MSI (s) (68:58) [12:28:40:145]: User policy value 'TransformsAtSource' is 0
+MSI (s) (68:58) [12:28:40:183]: File will have security applied from OpCode.
+MSI (s) (68:58) [12:28:40:193]: Original patch ==> c:\090cbc94696687b6821f\msp_kb2565063.msp
+MSI (s) (68:58) [12:28:40:193]: Patch we're running from ==> c:\Windows\Installer\22949a.msp
+MSI (s) (68:58) [12:28:40:194]: SOFTWARE RESTRICTION POLICY: Verifying patch --> 'c:\090cbc94696687b6821f\msp_kb2565063.msp' against software restriction policy
+MSI (s) (68:58) [12:28:40:194]: SOFTWARE RESTRICTION POLICY: c:\090cbc94696687b6821f\msp_kb2565063.msp has a digital signature
+MSI (s) (68:58) [12:28:40:238]: SOFTWARE RESTRICTION POLICY: c:\090cbc94696687b6821f\msp_kb2565063.msp is permitted to run at the 'unrestricted' authorization level.
+MSI (s) (68:58) [12:28:40:248]: SequencePatches starts. Product code: {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}, Product version: 10.0.40219, Upgrade code: {1F4F1D2A-D9DA-32CF-9909-48485DA06DD5}, Product language 0
+MSI (s) (68:58) [12:28:40:250]: PATCH SEQUENCER: verifying the applicability of QFE patch c:\090cbc94696687b6821f\msp_kb2565063.msp against product code: {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}, product version: 10.0.40219, product language 0 and upgrade code: {1F4F1D2A-D9DA-32CF-9909-48485DA06DD5}
+MSI (s) (68:58) [12:28:40:250]: PATCH SEQUENCER: QFE patch c:\090cbc94696687b6821f\msp_kb2565063.msp is applicable.
+MSI (s) (68:58) [12:28:40:280]: SequencePatches returns success.
+MSI (s) (68:58) [12:28:40:280]: Final Patch Application Order:
+MSI (s) (68:58) [12:28:40:280]: {6F8500D2-A80F-3347-9081-B41E71C8592B} - c:\090cbc94696687b6821f\msp_kb2565063.msp
+MSI (s) (68:58) [12:28:40:281]: Machine policy value 'DisablePatch' is 0
+MSI (s) (68:58) [12:28:40:281]: Machine policy value 'AllowLockdownPatch' is 0
+MSI (s) (68:58) [12:28:40:281]: Machine policy value 'DisableLUAPatching' is 0
+MSI (s) (68:58) [12:28:40:281]: Machine policy value 'DisableFlyWeightPatching' is 0
+MSI (s) (68:58) [12:28:40:283]: Looking for patch transform: SP1.1
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: _Tables 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: _Columns 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: _Validation 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: AdminExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: AdminUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: AdvtExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: AppSearch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:284]: Note: 1: 2262 2: Binary 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: Directory 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: CreateFolder 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: CustomAction 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: Error 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: InstallExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: InstallUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: Media 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: MsiDigitalCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: MsiDigitalSignature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: MsiFileHash 3: -2147287038 
+MSI (s) (68:58) [12:28:40:285]: Note: 1: 2262 2: MsiPatchCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: RegLocator 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: UIText 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Upgrade 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: _Validation 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: AdminExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: AdminUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: AdvtExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: AppSearch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Binary 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Component 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Directory 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: CreateFolder 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: CustomAction 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Error 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: Feature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: FeatureComponents 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: FeatureExtensionData 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: InstallExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:287]: Note: 1: 2262 2: InstallUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: MsiDigitalCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: MsiDigitalSignature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: MsiFileHash 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: MsiPatchCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: Registry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: RegLocator 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: RemoveRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: UIText 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2262 2: Upgrade 3: -2147287038 
+MSI (s) (68:58) [12:28:40:288]: Note: 1: 2205 2:  3: Patch 
+MSI (s) (68:58) [12:28:40:328]: Note: 1: 2228 2:  3: Patch 4: CREATE TABLE `Patch` ( `File_` CHAR(72) NOT NULL, `Sequence` INTEGER NOT NULL, `PatchSize` LONG NOT NULL, `Attributes` INTEGER NOT NULL, `Header` OBJECT, `StreamRef_` CHAR(72)  PRIMARY KEY `File_`, `Sequence` ) 
+MSI (s) (68:58) [12:28:40:328]: Note: 1: 2262 2: Patch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (68:58) [12:28:40:331]: TRANSFORM: 'PatchPackage' table is missing or empty.  No pre-transform fixup necessary.
+MSI (s) (68:58) [12:28:40:331]: TRANSFORM: Applying regular transform to database.
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: _Tables 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: _Columns 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: _Validation 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: AdminExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: AdminUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: AdvtExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: AppSearch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: Binary 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: Directory 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: CreateFolder 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: CustomAction 3: -2147287038 
+MSI (s) (68:58) [12:28:40:331]: Note: 1: 2262 2: Error 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: InstallExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: InstallUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Media 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: MsiDigitalCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: MsiDigitalSignature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: MsiFileHash 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: MsiPatchCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: RegLocator 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: UIText 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Upgrade 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: #_PatchCache 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: #_BaselineData 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: #_BaselineFile 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: #_BaselineCost 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: _MsiPatchAuthorTransformView 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: __MsiRegistryList 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: _MsiPatchPatchTransformView 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Patch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: __MsiPatchInstallComponent 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: __MsiPatchInstallFile 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: __MsiPatchInstallRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: __MsiPatchInstallRemoveRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: __MsiPatchInstallFeatureComponents 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Detected that this is a 'Small Update' patch.  Any remaining transforms in the patch will be skipped.
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2205 2:  3: PatchPackage 
+MSI (s) (68:58) [12:28:40:332]: TRANSFORM: The minimum 'Media.DiskId' value inserted by a patch transform is 100
+MSI (s) (68:58) [12:28:40:332]: TRANSFORM: The maximum 'Media.DiskId' value inserted by a patch transform is 99
+MSI (s) (68:58) [12:28:40:332]: TRANSFORM: The minimum 'File.Sequence' or 'Patch.Sequence' value inserted by a patch transform is 10000
+MSI (s) (68:58) [12:28:40:332]: TRANSFORM: The maximum 'File.Sequence' or 'Patch.Sequence' value inserted by a patch transform is 9999.
+MSI (s) (68:58) [12:28:40:332]: TRANSFORM: Applying special patch transform to database.
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: _Validation 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: AdminExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: AdminUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: AdvtExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: AppSearch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Binary 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Component 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Directory 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: CreateFolder 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: CustomAction 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Error 3: -2147287038 
+MSI (s) (68:58) [12:28:40:332]: Note: 1: 2262 2: Feature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: FeatureComponents 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: FeatureExtensionData 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: InstallExecuteSequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: InstallUISequence 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: MsiDigitalCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: MsiDigitalSignature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: MsiFileHash 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: MsiPatchCertificate 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: Registry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: RegLocator 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: RemoveRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: UIText 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: Upgrade 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: #_PatchCache 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: #_BaselineData 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: #_BaselineFile 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: #_BaselineCost 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: __MsiRegistryList 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: _MsiPatchPatchTransformView 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: Patch 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: __MsiPatchInstallComponent 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: __MsiPatchInstallFile 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: __MsiPatchInstallRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: __MsiPatchInstallRemoveRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: __MsiPatchInstallFeatureComponents 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Transforming table Media.
+
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: Media 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Transforming table Media.
+
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: PatchPackage 3: -2147287038 
+MSI (s) (68:58) [12:28:40:333]: Transforming table PatchPackage.
+
+MSI (s) (68:58) [12:28:40:333]: Note: 1: 2262 2: PatchPackage 3: -2147287038 
+MSI (s) (68:58) [12:28:40:334]: Transforming table PatchPackage.
+
+MSI (s) (68:58) [12:28:40:334]: TRANSFORM: Modifying 'File' and 'Patch' rows added by this patch transform to have appropriate 'Sequence' values.  Offsetting values by -10001
+MSI (s) (68:58) [12:28:40:334]: TRANSFORM: Modifying 'PatchPackage' table row added by this patch transform to use 'Media_' value 100.
+MSI (s) (68:58) [12:28:40:334]: TRANSFORM: Modifying 'Media' table row added by this patch transform to use 'DiskId' value 100 and 'Source' values MSPSRC6F8500D2A80F33479081B41E71C8592B.
+MSI (s) (68:58) [12:28:40:337]: APPCOMPAT: looking for appcompat database entry with ProductCode '{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}'.
+MSI (s) (68:58) [12:28:40:337]: APPCOMPAT: no matching ProductCode found in database.
+MSI (s) (68:58) [12:28:40:337]: Transforms are not secure.
+MSI (s) (68:58) [12:28:40:337]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:40:337]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:40:337]: Note: 1: 2205 2:  3: Control 
+MSI (s) (68:58) [12:28:40:337]: PROPERTY CHANGE: Adding MsiLogFileLocation property. Its value is 'C:\Users\SLEEPT~1\AppData\Local\Temp\Microsoft Visual C++ 2010  x86 Redistributable Setup_20210913_122834838-MSI_vc_red.msi.txt'.
+MSI (s) (68:58) [12:28:40:337]: Command Line: EXTUI=1 PATCH=c:\090cbc94696687b6821f\msp_kb2565063.msp CURRENTDIRECTORY=c:\090cbc94696687b6821f CLIENTUILEVEL=3 MSICLIENTUSESEXTERNALUI=1 CLIENTPROCESSID=4952 
+MSI (s) (68:58) [12:28:40:337]: PROPERTY CHANGE: Adding PackageCode property. Its value is '{461C455E-DA40-49B3-871B-14308CC7CEFF}'.
+MSI (s) (68:58) [12:28:40:337]: Product Code passed to Engine.Initialize:           ''
+MSI (s) (68:58) [12:28:40:337]: Product Code from property table before transforms: '{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}'
+MSI (s) (68:58) [12:28:40:337]: Product Code from property table after transforms:  '{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}'
+MSI (s) (68:58) [12:28:40:337]: Product not registered: beginning first-time install
+MSI (s) (68:58) [12:28:40:337]: PROPERTY CHANGE: Modifying ALLUSERS property. Its current value is '2'. Its new value: '1'.
+MSI (s) (68:58) [12:28:40:338]: Product {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5} is not managed.
+MSI (s) (68:58) [12:28:40:378]: MSI_LUA: Credential prompt not required, user is an admin
+MSI (s) (68:58) [12:28:40:378]: PROPERTY CHANGE: Adding ProductState property. Its value is '-1'.
+MSI (s) (68:58) [12:28:40:378]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (68:58) [12:28:40:378]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (68:58) [12:28:40:381]: Adding new sources is allowed.
+MSI (s) (68:58) [12:28:40:382]: PROPERTY CHANGE: Adding PackagecodeChanging property. Its value is '1'.
+MSI (s) (68:58) [12:28:40:382]: Package name extracted from package path: 'vc_red.msi'
+MSI (s) (68:58) [12:28:40:392]: Package to be registered: 'vc_red.msi'
+MSI (s) (68:58) [12:28:40:395]: Note: 1: 2262 2: AdminProperties 3: -2147287038 
+MSI (s) (68:58) [12:28:40:396]: Machine policy value 'DisableMsi' is 0
+MSI (s) (68:58) [12:28:40:396]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (68:58) [12:28:40:396]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (68:58) [12:28:40:396]: Product installation will be elevated because user is admin and product is being installed per-machine.
+MSI (s) (68:58) [12:28:40:396]: Running product '{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}' with elevated privileges: Product is assigned.
+MSI (s) (68:58) [12:28:40:396]: PROPERTY CHANGE: Adding EXTUI property. Its value is '1'.
+MSI (s) (68:58) [12:28:40:396]: PROPERTY CHANGE: Adding PATCH property. Its value is 'c:\090cbc94696687b6821f\msp_kb2565063.msp'.
+MSI (s) (68:58) [12:28:40:396]: PROPERTY CHANGE: Adding CURRENTDIRECTORY property. Its value is 'c:\090cbc94696687b6821f'.
+MSI (s) (68:58) [12:28:40:396]: PROPERTY CHANGE: Adding CLIENTUILEVEL property. Its value is '3'.
+MSI (s) (68:58) [12:28:40:396]: PROPERTY CHANGE: Adding MSICLIENTUSESEXTERNALUI property. Its value is '1'.
+MSI (s) (68:58) [12:28:40:396]: PROPERTY CHANGE: Adding CLIENTPROCESSID property. Its value is '4952'.
+MSI (s) (68:58) [12:28:40:396]: Machine policy value 'DisableAutomaticApplicationShutdown' is 0
+MSI (s) (68:58) [12:28:40:427]: PROPERTY CHANGE: Adding MsiRestartManagerSessionKey property. Its value is '19bffe43fda725479a052226ede04d99'.
+MSI (s) (68:58) [12:28:40:427]: RESTART MANAGER: Session opened.
+MSI (s) (68:58) [12:28:40:427]: TRANSFORMS property is now: 
+MSI (s) (68:58) [12:28:40:427]: PROPERTY CHANGE: Adding VersionDatabase property. Its value is '200'.
+MSI (s) (68:58) [12:28:40:430]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming
+MSI (s) (68:58) [12:28:40:432]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\Favorites
+MSI (s) (68:58) [12:28:40:434]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+MSI (s) (68:58) [12:28:40:437]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\Documents
+MSI (s) (68:58) [12:28:40:439]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Printer Shortcuts
+MSI (s) (68:58) [12:28:40:441]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Recent
+MSI (s) (68:58) [12:28:40:443]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\SendTo
+MSI (s) (68:58) [12:28:40:446]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Templates
+MSI (s) (68:58) [12:28:40:446]: SHELL32::SHGetFolderPath returned: C:\ProgramData
+MSI (s) (68:58) [12:28:40:448]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Local
+MSI (s) (68:58) [12:28:40:450]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\Pictures
+MSI (s) (68:58) [12:28:40:455]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (68:58) [12:28:40:457]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (68:58) [12:28:40:459]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+MSI (s) (68:58) [12:28:40:461]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Start Menu
+MSI (s) (68:58) [12:28:40:463]: SHELL32::SHGetFolderPath returned: C:\Users\Public\Desktop
+MSI (s) (68:58) [12:28:40:467]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+MSI (s) (68:58) [12:28:40:470]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+MSI (s) (68:58) [12:28:40:472]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+MSI (s) (68:58) [12:28:40:474]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Start Menu
+MSI (s) (68:58) [12:28:40:476]: SHELL32::SHGetFolderPath returned: C:\Users\SleepTheGod\Desktop
+MSI (s) (68:58) [12:28:40:479]: SHELL32::SHGetFolderPath returned: C:\ProgramData\Microsoft\Windows\Templates
+MSI (s) (68:58) [12:28:40:480]: SHELL32::SHGetFolderPath returned: C:\Windows\Fonts
+MSI (s) (68:58) [12:28:40:482]: Note: 1: 2898 2: MS Sans Serif 3: MS Sans Serif 4: 0 5: 16 
+MSI (s) (68:58) [12:28:40:494]: MSI_LUA: Setting MsiRunningElevated property to 1 because the install is already running elevated.
+MSI (s) (68:58) [12:28:40:494]: PROPERTY CHANGE: Adding MsiRunningElevated property. Its value is '1'.
+MSI (s) (68:58) [12:28:40:494]: PROPERTY CHANGE: Adding Privileged property. Its value is '1'.
+MSI (s) (68:58) [12:28:40:494]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (68:58) [12:28:40:506]: PROPERTY CHANGE: Adding USERNAME property. Its value is 'intxturl@outlook.com'.
+MSI (s) (68:58) [12:28:40:506]: Note: 1: 1402 2: HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info 3: 2 
+MSI (s) (68:58) [12:28:40:506]: PROPERTY CHANGE: Adding DATABASE property. Its value is 'c:\Windows\Installer\229499.msi'.
+MSI (s) (68:58) [12:28:40:506]: PROPERTY CHANGE: Adding OriginalDatabase property. Its value is 'c:\090cbc94696687b6821f\vc_red.msi'.
+MSI (s) (68:58) [12:28:40:506]: Machine policy value 'MsiDisableEmbeddedUI' is 0
+MSI (s) (68:58) [12:28:40:506]: EEUI - Disabling MsiEmbeddedUI due to existing external or embedded UI
+MSI (s) (68:58) [12:28:40:506]: EEUI - Disabling MsiEmbeddedUI for service because it's not a quiet/basic install
+MSI (s) (68:58) [12:28:40:507]: PROPERTY CHANGE: Adding MSPSRC6F8500D2A80F33479081B41E71C8592B property. Its value is 'c:\Windows\Installer\22949a.msp'.
+MSI (s) (68:58) [12:28:40:507]: PROPERTY CHANGE: Adding msp property. Its value is 'c:\090cbc94696687b6821f\msp_kb2565063.msp'.
+MSI (s) (68:58) [12:28:40:507]: Machine policy value 'DisableRollback' is 0
+MSI (s) (68:58) [12:28:40:507]: User policy value 'DisableRollback' is 0
+MSI (s) (68:58) [12:28:40:507]: PROPERTY CHANGE: Adding UILevel property. Its value is '2'.
+=== Logging started: 9/13/2021  12:28:40 ===
+MSI (s) (68:58) [12:28:40:509]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (68:58) [12:28:40:509]: Note: 1: 2205 2:  3: LaunchCondition 
+MSI (s) (68:58) [12:28:40:509]: Note: 1: 2228 2:  3: LaunchCondition 4: SELECT `Condition` FROM `LaunchCondition` 
+MSI (s) (68:58) [12:28:40:509]: APPCOMPAT: [DetectVersionLaunchCondition] Failed to initialize pRecErr.
+MSI (s) (68:58) [12:28:40:511]: PROPERTY CHANGE: Adding ACTION property. Its value is 'INSTALL'.
+MSI (s) (68:58) [12:28:40:512]: Doing action: INSTALL
+MSI (s) (68:58) [12:28:40:512]: Note: 1: 2205 2:  3: ActionText 
+Action start 12:28:40: INSTALL.
+MSI (s) (68:58) [12:28:40:534]: Running ExecuteSequence
+MSI (s) (68:58) [12:28:40:535]: Skipping action: DDSE_CA_Uninstall_InstallExecuteSequenceStarts_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:535]: Doing action: FindRelatedProducts
+MSI (s) (68:58) [12:28:40:535]: Note: 1: 2205 2:  3: ActionText 
+Action start 12:28:40: FindRelatedProducts.
+MSI (s) (68:58) [12:28:40:580]: Skipping action: CA_BlockOlderVCREDISTInstall_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:580]: Doing action: LaunchConditions
+MSI (s) (68:58) [12:28:40:580]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: FindRelatedProducts. Return value 1.
+MSI (s) (68:58) [12:28:40:599]: Note: 1: 2205 2:  3: LaunchCondition 
+MSI (s) (68:58) [12:28:40:599]: Note: 1: 2228 2:  3: LaunchCondition 4: SELECT `Condition`, `Description` FROM `LaunchCondition` 
+Action start 12:28:40: LaunchConditions.
+MSI (s) (68:58) [12:28:40:601]: Doing action: CA_SetRTM_ProductName_x86_enu
+MSI (s) (68:58) [12:28:40:601]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: LaunchConditions. Return value 0.
+MSI (s) (68:58) [12:28:40:602]: PROPERTY CHANGE: Adding RTM_ProductName property. Its value is 'Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219'.
+Action start 12:28:40: CA_SetRTM_ProductName_x86_enu.
+MSI (s) (68:58) [12:28:40:604]: Doing action: AppSearch
+MSI (s) (68:58) [12:28:40:604]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_SetRTM_ProductName_x86_enu. Return value 1.
+Action start 12:28:40: AppSearch.
+MSI (s) (68:58) [12:28:40:606]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:630]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\0 3: 2 
+MSI (s) (68:58) [12:28:40:630]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:631]: PROPERTY CHANGE: Adding REDISTFOUNDVER property. Its value is '#1'.
+MSI (s) (68:58) [12:28:40:632]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:632]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Visual JSharp Setup\Redist\v4.0.30319 3: 2 
+MSI (s) (68:58) [12:28:40:633]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:633]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0.30319 3: 2 
+MSI (s) (68:58) [12:28:40:634]: Note: 1: 2262 2: Signature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:634]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0.30319\0 3: 2 
+MSI (s) (68:58) [12:28:40:634]: Skipping action: CCPSearch (condition is false)
+MSI (s) (68:58) [12:28:40:635]: Skipping action: RMCCPSearch (condition is false)
+MSI (s) (68:58) [12:28:40:635]: Doing action: ValidateProductID
+MSI (s) (68:58) [12:28:40:635]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: AppSearch. Return value 1.
+Action start 12:28:40: ValidateProductID.
+MSI (s) (68:58) [12:28:40:636]: Doing action: CA_AdminToolsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:637]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: ValidateProductID. Return value 1.
+MSI (s) (68:58) [12:28:40:638]: PROPERTY CHANGE: Adding AdminToolsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\'.
+Action start 12:28:40: CA_AdminToolsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:639]: Doing action: CA_AppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:639]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_AdminToolsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:640]: PROPERTY CHANGE: Adding AppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Users\SleepTheGod\AppData\Roaming\'.
+Action start 12:28:40: CA_AppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:641]: Doing action: CA_CommonAppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:641]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_AppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:642]: PROPERTY CHANGE: Adding CommonAppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\ProgramData\'.
+Action start 12:28:40: CA_CommonAppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:642]: Doing action: CA_CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:643]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_CommonAppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:644]: PROPERTY CHANGE: Adding CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Program Files\Common Files\'.
+Action start 12:28:40: CA_CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:645]: Doing action: CA_DesktopFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:645]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:646]: PROPERTY CHANGE: Adding DesktopFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Users\Public\Desktop\'.
+Action start 12:28:40: CA_DesktopFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:647]: Doing action: CA_ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:647]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_DesktopFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:648]: PROPERTY CHANGE: Adding ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Program Files\'.
+Action start 12:28:40: CA_ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:649]: Doing action: CA_ProgramFilesFolder2_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:649]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:650]: PROPERTY CHANGE: Adding ProgramFilesFolder2_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Program Files\'.
+Action start 12:28:40: CA_ProgramFilesFolder2_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:651]: Doing action: CA_ProgramMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:651]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_ProgramFilesFolder2_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:652]: PROPERTY CHANGE: Adding ProgramMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\ProgramData\Microsoft\Windows\Start Menu\Programs\'.
+Action start 12:28:40: CA_ProgramMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:653]: Doing action: CA_StartMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:653]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_ProgramMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:654]: PROPERTY CHANGE: Adding StartMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\ProgramData\Microsoft\Windows\Start Menu\'.
+Action start 12:28:40: CA_StartMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:655]: Doing action: CA_System16Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:655]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_StartMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:656]: PROPERTY CHANGE: Adding System16Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Windows\system\'.
+Action start 12:28:40: CA_System16Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:657]: Doing action: CA_System64Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:657]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_System16Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+Action start 12:28:40: CA_System64Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:658]: Doing action: CA_SystemFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:658]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_System64Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:659]: PROPERTY CHANGE: Adding SystemFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Windows\system32\'.
+Action start 12:28:40: CA_SystemFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:660]: Doing action: CA_SystemFolder_x86_VC
+MSI (s) (68:58) [12:28:40:660]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_SystemFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:661]: PROPERTY CHANGE: Adding SystemFolder_x86_VC property. Its value is 'C:\Windows\system32\'.
+Action start 12:28:40: CA_SystemFolder_x86_VC.
+MSI (s) (68:58) [12:28:40:662]: Doing action: CA_TempFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:662]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_SystemFolder_x86_VC. Return value 1.
+MSI (s) (68:58) [12:28:40:663]: PROPERTY CHANGE: Adding TempFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Users\SLEEPT~1\AppData\Local\Temp\'.
+Action start 12:28:40: CA_TempFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:663]: Doing action: CA_WindowsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:663]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_TempFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:665]: PROPERTY CHANGE: Adding WindowsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'C:\Windows\'.
+Action start 12:28:40: CA_WindowsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:665]: Doing action: CA_WindowsFolder_x86_VC
+MSI (s) (68:58) [12:28:40:665]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_WindowsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:667]: PROPERTY CHANGE: Adding WindowsFolder_x86_VC property. Its value is 'C:\Windows\'.
+Action start 12:28:40: CA_WindowsFolder_x86_VC.
+MSI (s) (68:58) [12:28:40:668]: Doing action: CA_WindowsVolume_x86.3643236F_FC70_11D3_A536_0090278A1BB8
+MSI (s) (68:58) [12:28:40:668]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_WindowsFolder_x86_VC. Return value 1.
+MSI (s) (68:58) [12:28:40:669]: PROPERTY CHANGE: Adding WindowsVolume_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'c:\'.
+Action start 12:28:40: CA_WindowsVolume_x86.3643236F_FC70_11D3_A536_0090278A1BB8.
+MSI (s) (68:58) [12:28:40:670]: Skipping action: DDSE_CA_Uninstall_CostInitializePre_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:670]: Doing action: CostInitialize
+MSI (s) (68:58) [12:28:40:670]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CA_WindowsVolume_x86.3643236F_FC70_11D3_A536_0090278A1BB8. Return value 1.
+MSI (s) (68:58) [12:28:40:671]: Machine policy value 'MaxPatchCacheSize' is 10
+MSI (s) (68:58) [12:28:40:690]: RTM Baseline: 10.0.40219
+Action start 12:28:40: CostInitialize.
+MSI (s) (68:58) [12:28:40:692]: PROPERTY CHANGE: Adding ROOTDRIVE property. Its value is 'c:\'.
+MSI (s) (68:58) [12:28:40:708]: PROPERTY CHANGE: Adding CostingComplete property. Its value is '0'.
+MSI (s) (68:58) [12:28:40:708]: Transforming table Feature.
+
+MSI (s) (68:58) [12:28:40:708]: Transforming table Feature.
+
+MSI (s) (68:58) [12:28:40:708]: Note: 1: 2262 2: Feature 3: -2147287038 
+MSI (s) (68:58) [12:28:40:709]: Transforming table FeatureComponents.
+
+MSI (s) (68:58) [12:28:40:709]: Transforming table FeatureComponents.
+
+MSI (s) (68:58) [12:28:40:709]: Note: 1: 2262 2: FeatureComponents 3: -2147287038 
+MSI (s) (68:58) [12:28:40:710]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (68:58) [12:28:40:710]: Note: 1: 2205 2:  3: __MsiPatchFileList 
+MSI (s) (68:58) [12:28:40:711]: Skipping action: DDSE_CA_Uninstall_CostInitializePost_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:711]: Doing action: FileCost
+MSI (s) (68:58) [12:28:40:711]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CostInitialize. Return value 1.
+MSI (s) (68:58) [12:28:40:724]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (68:58) [12:28:40:725]: Transforming table Registry.
+
+MSI (s) (68:58) [12:28:40:725]: Transforming table Registry.
+
+MSI (s) (68:58) [12:28:40:725]: Note: 1: 2262 2: Registry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:725]: Note: 1: 2205 2:  3: Class 
+MSI (s) (68:58) [12:28:40:725]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (68:58) [12:28:40:725]: Note: 1: 2205 2:  3: TypeLib 
+Action start 12:28:40: FileCost.
+MSI (s) (68:58) [12:28:40:726]: Skipping action: DDSE_CA_Uninstall_CostFinalizePre_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:726]: Doing action: CostFinalize
+MSI (s) (68:58) [12:28:40:726]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: FileCost. Return value 1.
+MSI (s) (68:58) [12:28:40:729]: PROPERTY CHANGE: Adding OutOfDiskSpace property. Its value is '0'.
+MSI (s) (68:58) [12:28:40:729]: PROPERTY CHANGE: Adding OutOfNoRbDiskSpace property. Its value is '0'.
+MSI (s) (68:58) [12:28:40:729]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceAvailable property. Its value is '0'.
+MSI (s) (68:58) [12:28:40:729]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRequired property. Its value is '0'.
+MSI (s) (68:58) [12:28:40:729]: PROPERTY CHANGE: Adding PrimaryVolumeSpaceRemaining property. Its value is '0'.
+MSI (s) (68:58) [12:28:40:729]: Transforming table RemoveRegistry.
+
+MSI (s) (68:58) [12:28:40:729]: Transforming table RemoveRegistry.
+
+MSI (s) (68:58) [12:28:40:729]: Note: 1: 2262 2: RemoveRegistry 3: -2147287038 
+MSI (s) (68:58) [12:28:40:730]: Note: 1: 2205 2:  3: Condition 
+MSI (s) (68:58) [12:28:40:730]: PROPERTY CHANGE: Adding TARGETDIR property. Its value is 'c:\'.
+MSI (s) (68:58) [12:28:40:730]: PROPERTY CHANGE: Modifying WindowsFolder property. Its current value is 'C:\Windows\'. Its new value: 'c:\Windows\'.
+MSI (s) (68:58) [12:28:40:730]: PROPERTY CHANGE: Adding DR_54322.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'c:\'.
+MSI (s) (68:58) [12:28:40:730]: PROPERTY CHANGE: Adding CSetupMM_URT_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'c:\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Modifying WindowsFolder_x86_VC property. Its current value is 'C:\Windows\'. Its new value: 'c:\Windows\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Modifying SystemFolder_x86_VC property. Its current value is 'C:\Windows\system32\'. Its new value: 'c:\Windows\system32\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Modifying ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its current value is 'C:\Program Files\'. Its new value: 'c:\Program Files\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Adding VS7.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'c:\Program Files\Microsoft Visual Studio 10.0\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Modifying CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its current value is 'C:\Program Files\Common Files\'. Its new value: 'c:\Program Files\Common Files\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Adding MSShared_x86.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'c:\Program Files\Common Files\Microsoft Shared\'.
+MSI (s) (68:58) [12:28:40:731]: PROPERTY CHANGE: Adding VCMsM.3643236F_FC70_11D3_A536_0090278A1BB8 property. Its value is 'c:\Program Files\Common Files\Microsoft Shared\VC\'.
+MSI (s) (68:58) [12:28:40:731]: Target path resolution complete. Dumping Directory table...
+MSI (s) (68:58) [12:28:40:731]: Note: target paths subject to change (via custom actions or browsing)
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: TARGETDIR	, Object: c:\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: WindowsFolder	, Object: c:\Windows\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: DR_54322.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: CSetupMM_URT_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: WindowsFolder_x86_VC	, Object: c:\Windows\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: SystemFolder_x86_VC	, Object: c:\Windows\system32\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\Program Files\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: VS7.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\Program Files\Microsoft Visual Studio 10.0\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\Program Files\Common Files\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: MSShared_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\Program Files\Common Files\Microsoft Shared\
+MSI (s) (68:58) [12:28:40:731]: Dir (target): Key: VCMsM.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\Program Files\Common Files\Microsoft Shared\VC\
+MSI (s) (68:58) [12:28:40:732]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (68:58) [12:28:40:732]: Note: 1: 2228 2:  3: MsiAssembly 4:  SELECT `MsiAssembly`.`Attributes`, `MsiAssembly`.`File_Application`, `MsiAssembly`.`File_Manifest`,  `Component`.`KeyPath` FROM `MsiAssembly`, `Component` WHERE  `MsiAssembly`.`Component_` = `Component`.`Component` AND `MsiAssembly`.`Component_` = ? 
+Action start 12:28:40: CostFinalize.
+MSI (s) (68:58) [12:28:40:735]: Skipping action: DDSE_CA_Uninstall_CostFinalizePost_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:735]: Doing action: SetODBCFolders
+MSI (s) (68:58) [12:28:40:735]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: CostFinalize. Return value 1.
+MSI (s) (68:58) [12:28:40:754]: Note: 1: 2205 2:  3: ODBCDriver 
+MSI (s) (68:58) [12:28:40:754]: Note: 1: 2228 2:  3: ODBCDriver 4: SELECT `ComponentId`,`Description`,`Directory_`, `ActionRequest`, `Installed`, `Attributes` FROM `ODBCDriver`, `Component` WHERE `ODBCDriver`.`Component_` = `Component` AND (`ActionRequest` = 1 OR `ActionRequest` = 2) 
+MSI (s) (68:58) [12:28:40:754]: Note: 1: 2205 2:  3: ODBCTranslator 
+MSI (s) (68:58) [12:28:40:754]: Note: 1: 2228 2:  3: ODBCTranslator 4: SELECT `ComponentId`,`Description`,`Directory_`, `ActionRequest`, `Installed`, `Attributes` FROM `ODBCTranslator`, `Component` WHERE `ODBCTranslator`.`Component_` = `Component` AND (`ActionRequest` = 1 OR `ActionRequest` = 2) 
+Action start 12:28:40: SetODBCFolders.
+MSI (s) (68:58) [12:28:40:754]: Skipping action: DDSE_CA_Uninstall_InstallValidatePre_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:754]: Doing action: InstallValidate
+MSI (s) (68:58) [12:28:40:754]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: SetODBCFolders. Return value 0.
+MSI (s) (68:58) [12:28:40:757]: PROPERTY CHANGE: Deleting MsiRestartManagerSessionKey property. Its current value is '19bffe43fda725479a052226ede04d99'.
+MSI (s) (68:58) [12:28:40:757]: Note: 1: 2205 2:  3: Dialog 
+MSI (s) (68:58) [12:28:40:771]: Feature: VCRedist_x86_enu; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: VC_RED_enu_x86_net_SETUP; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: Servicing_Key; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB2467173; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB2151757; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB982573; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB2565063; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: FT_VCRedist_x86_KB2565063_Detection; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB2524860; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB2544655; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Feature: KB2549743; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_x86_VCRedist_Detection; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: Servicing_Key_ProductChipLanguage; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: MSDIA80_DLL_Redist_11215_____x86.3643236F_FC70_11D3_A536_0090278A1BB8; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_atl100_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_msvcr100_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_msvcp100_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100u_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfcm100_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfcm100u_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100cht_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100chs_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100enu_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100deu_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100esn_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100fra_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100ita_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100jpn_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100kor_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_mfc100rus_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_CENTRAL_vcomp100_x86; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:771]: Component: C_VC_Redist_Noninstall_Install_exe_x86; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:771]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_enu; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_kor; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_jpn; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_rus; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_ita; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_fra; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_esn; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_deu; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_cht; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_res_dll_x86_chs; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_MSI_x86_enu; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_enu; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_kor; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_jpn; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_rus; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_ita; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_fra; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_esn; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_deu; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_cht; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_EULA_chs; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_ini_ln; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_Install_ini_enu; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_VCRedist_Bmp; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_Noninstall_VCRedist_CAB; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: Servicing_Key_ProductFamily; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: Servicing_Key_ProductEdition; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: Servicing_Key_ProductLanguage; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2467173.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2467173.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2467173.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2467173.SE; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2151757.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2151757.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2151757.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2151757.SE; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB982573.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB982573.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB982573.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB982573.SE; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2544655.SE; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2544655.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2544655.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2544655.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2549743.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2524860.SE; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2524860.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2524860.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2524860.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: C_VC_Redist_x86_KB2565063_Detection; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2565063.SE; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2565063.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2565063.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2565063.ARP.Add; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2549743.SE; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: KB2549743.ARP.Remove; Installed: Absent;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: KB2549743.ARP.NoRemove; Installed: Absent;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_atl100_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_msvcr100_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_msvcp100_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100u_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfcm100_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfcm100u_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100cht_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100chs_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100enu_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100deu_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100esn_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100fra_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:772]: Component: __C_CENTRAL_mfc100ita_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __C_CENTRAL_mfc100jpn_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __C_CENTRAL_mfc100kor_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __C_CENTRAL_mfc100rus_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __C_CENTRAL_vcomp100_x8665; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __C_x86_VCRedist_Detection65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __Servicing_Key_ProductChipLanguage65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __Servicing_Key_ProductFamily65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __Servicing_Key_ProductEdition65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __Servicing_Key_ProductLanguage65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2467173.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2467173.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2467173.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2467173.SE65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2151757.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2151757.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2151757.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2151757.SE65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB982573.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB982573.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB982573.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB982573.SE65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2544655.SE65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2544655.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2544655.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2544655.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2524860.SE65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2524860.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2524860.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2524860.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __C_VC_Redist_x86_KB2565063_Detection65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2565063.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2565063.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2565063.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2549743.SE65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2549743.ARP.Remove65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2549743.ARP.Add65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2549743.ARP.NoRemove65; Installed: Null;   Request: Local;   Action: Null
+MSI (s) (68:58) [12:28:40:773]: Component: __KB2565063.SE65; Installed: Null;   Request: Local;   Action: Local
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: Font 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: Class 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (68:58) [12:28:40:773]: Note: 1: 2205 2:  3: TypeLib 
+Action start 12:28:40: InstallValidate.
+MSI (s) (68:58) [12:28:40:786]: Note: 1: 2205 2:  3: _RemoveFilePath 
+MSI (s) (68:58) [12:28:40:863]: PROPERTY CHANGE: Modifying CostingComplete property. Its current value is '0'. Its new value: '1'.
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: BindImage 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: ProgId 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: Extension 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: Font 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: Class 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (68:58) [12:28:40:864]: Note: 1: 2205 2:  3: TypeLib 
+MSI (s) (68:58) [12:28:40:883]: Note: 1: 2727 2:  
+MSI (s) (68:58) [12:28:40:884]: Note: 1: 2205 2:  3: FilesInUse 
+MSI (s) (68:58) [12:28:40:918]: Note: 1: 2727 2:  
+MSI (s) (68:58) [12:28:40:919]: Skipping action: DDSE_CA_Uninstall_InstallValidatePost_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:919]: Skipping action: DDSE_CA_Uninstall_InstallInitializePre_x86 (condition is false)
+MSI (s) (68:58) [12:28:40:919]: Doing action: InstallInitialize
+MSI (s) (68:58) [12:28:40:919]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:40: InstallValidate. Return value 1.
+MSI (s) (68:58) [12:28:40:920]: Machine policy value 'AlwaysInstallElevated' is 0
+MSI (s) (68:58) [12:28:40:920]: User policy value 'AlwaysInstallElevated' is 0
+MSI (s) (68:58) [12:28:40:920]: BeginTransaction: Locking Server
+MSI (s) (68:58) [12:28:40:920]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:40:920]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:40:932]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (68:58) [12:28:40:932]: SRSetRestorePoint skipped for this transaction.
+MSI (s) (68:58) [12:28:40:933]: Note: 1: 2203 2: C:\Windows\Installer\inprogressinstallinfo.ipi 3: -2147287038 
+MSI (s) (68:58) [12:28:40:933]: Server not locked: locking for product {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}
+Action start 12:28:40: InstallInitialize.
+MSI (s) (68:58) [12:28:41:113]: Skipping action: DDSE_CA_Uninstall_InstallInitializePost_x86 (condition is false)
+MSI (s) (68:58) [12:28:41:114]: Doing action: AllocateRegistrySpace
+MSI (s) (68:58) [12:28:41:114]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: InstallInitialize. Return value 1.
+Action start 12:28:41: AllocateRegistrySpace.
+MSI (s) (68:58) [12:28:41:117]: Doing action: ProcessComponents
+MSI (s) (68:58) [12:28:41:117]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: AllocateRegistrySpace. Return value 1.
+MSI (s) (68:58) [12:28:41:143]: Resolving source.
+MSI (s) (68:58) [12:28:41:143]: Resolving source to launched-from source.
+MSI (s) (68:58) [12:28:41:143]: Setting launched-from source as last-used.
+MSI (s) (68:58) [12:28:41:143]: PROPERTY CHANGE: Adding SourceDir property. Its value is 'c:\090cbc94696687b6821f\'.
+MSI (s) (68:58) [12:28:41:143]: PROPERTY CHANGE: Adding SOURCEDIR property. Its value is 'c:\090cbc94696687b6821f\'.
+MSI (s) (68:58) [12:28:41:143]: PROPERTY CHANGE: Adding SourcedirProduct property. Its value is '{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}'.
+MSI (s) (68:58) [12:28:41:143]: SOURCEDIR ==> c:\090cbc94696687b6821f\
+MSI (s) (68:58) [12:28:41:143]: SOURCEDIR product ==> {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}
+MSI (s) (68:58) [12:28:41:143]: Determining source type
+MSI (s) (68:58) [12:28:41:144]: Source type from package 'vc_red.msi': 2
+MSI (s) (68:58) [12:28:41:157]: SECREPAIR: Hash Database: C:\Windows\Installer\SourceHash{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}
+MSI (s) (68:58) [12:28:41:160]: Note: 1: 2262 2: SourceHash 3: -2147287038 
+MSI (s) (68:58) [12:28:41:217]: SECREPAIR: New Hash Database creation complete.
+MSI (s) (68:58) [12:28:41:222]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.exe for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:222]: SECUREREPAIR: Failed to CreateContentHash of the file: install.exe: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:222]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1033.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:222]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1033.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:222]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1042.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:222]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1042.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:222]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1041.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:222]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1041.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:222]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1049.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:222]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1049.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:223]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1040.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:223]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1040.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:223]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1036.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:223]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1036.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:223]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.3082.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:223]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.3082.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:223]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1031.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:223]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1031.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:223]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.1028.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:223]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.1028.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:223]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.res.2052.dll for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:223]: SECUREREPAIR: Failed to CreateContentHash of the file: install.res.2052.dll: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1033.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1033.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1042.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1042.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1041.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1041.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1049.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1049.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1040.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1040.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1036.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1036.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:226]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.3082.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:226]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.3082.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:227]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1031.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:227]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1031.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:227]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.1028.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:227]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.1028.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:227]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\eula.2052.txt for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:227]: SECUREREPAIR: Failed to CreateContentHash of the file: eula.2052.txt: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:227]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\globdata.ini for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:227]: SECUREREPAIR: Failed to CreateContentHash of the file: globdata.ini: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:227]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\install.ini for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:227]: SECUREREPAIR: Failed to CreateContentHash of the file: install.ini: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:227]: SECREPAIR: Failed to open the file:c:\090cbc94696687b6821f\vcredist.bmp for computing its hash. Error:2
+MSI (s) (68:58) [12:28:41:227]: SECUREREPAIR: Failed to CreateContentHash of the file: vcredist.bmp: for computing its hash. Error: 2
+MSI (s) (68:58) [12:28:41:332]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:332]: Transforming table Property.
+
+Action start 12:28:41: ProcessComponents.
+MSI (s) (68:58) [12:28:41:463]: Source path resolution complete. Dumping Directory table...
+MSI (s) (68:58) [12:28:41:463]: Dir (source): Key: TARGETDIR	, Object: c:\090cbc94696687b6821f\	, LongSubPath: 	, ShortSubPath: 
+MSI (s) (68:58) [12:28:41:463]: Dir (source): Key: WindowsFolder	, Object: c:\090cbc94696687b6821f\	, LongSubPath: 	, ShortSubPath: 
+MSI (s) (68:58) [12:28:41:463]: Dir (source): Key: DR_54322.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: 	, ShortSubPath: 
+MSI (s) (68:58) [12:28:41:463]: Dir (source): Key: CSetupMM_URT_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: 	, ShortSubPath: 
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: WindowsFolder_x86_VC	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Win\	, ShortSubPath: 
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: SystemFolder_x86_VC	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Win\System\	, ShortSubPath: 
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Program Files\	, ShortSubPath: xlqr-nev\
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: VS7.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Program Files\Microsoft Visual Studio 10.0\	, ShortSubPath: xlqr-nev\VS100.NET\
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Program Files\Microsoft Visual Studio 10.0\Common Files\	, ShortSubPath: xlqr-nev\VS100.NET\CFiles\
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: MSShared_x86.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Program Files\Microsoft Visual Studio 10.0\Common Files\Microsoft Shared\	, ShortSubPath: xlqr-nev\VS100.NET\CFiles\MSShared\
+MSI (s) (68:58) [12:28:41:464]: Dir (source): Key: VCMsM.3643236F_FC70_11D3_A536_0090278A1BB8	, Object: c:\090cbc94696687b6821f\	, LongSubPath: Program Files\Microsoft Visual Studio 10.0\Common Files\Microsoft Shared\VC\	, ShortSubPath: xlqr-nev\VS100.NET\CFiles\MSShared\VC\
+MSI (s) (68:58) [12:28:41:464]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (68:58) [12:28:41:464]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (68:58) [12:28:41:478]: Note: 1: 2205 2:  3: ActionText 
+MSI (s) (68:58) [12:28:41:554]: Doing action: UnpublishComponents
+MSI (s) (68:58) [12:28:41:554]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: ProcessComponents. Return value 1.
+MSI (s) (68:58) [12:28:41:573]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (68:58) [12:28:41:573]: Note: 1: 2228 2:  3: PublishComponent 4: SELECT `PublishComponent`.`ComponentId`, `PublishComponent`.`Qualifier`, `PublishComponent`.`AppData`, `Feature`, `Component`.`ComponentId`, `Component`.`RuntimeFlags` FROM `PublishComponent`, `Component`, `Feature`  WHERE `PublishComponent`.`Component_` = `Component`.`Component` AND `PublishComponent`.`Feature_` = `Feature`.`Feature` AND (`Feature`.`Action` = 0 OR ((`Feature`.`Action` = NULL OR `Feature`.`Action` = 3) AND `Component`.`Action` = 0 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2))) 
+Action start 12:28:41: UnpublishComponents.
+MSI (s) (68:58) [12:28:41:574]: Doing action: MsiUnpublishAssemblies
+MSI (s) (68:58) [12:28:41:574]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnpublishComponents. Return value 0.
+MSI (s) (68:58) [12:28:41:577]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (68:58) [12:28:41:577]: Note: 1: 2228 2:  3: MsiAssembly 4: SELECT null, null, `Component`.`Component`, `Feature`, `Component`.`ComponentId`, `Component`.`RuntimeFlags` FROM `MsiAssembly`, `Component`, `Feature`  WHERE `MsiAssembly`.`Component_` = `Component`.`Component` AND `MsiAssembly`.`Feature_` = `Feature`.`Feature` AND `MsiAssembly`.`File_Application` = null AND (`Feature`.`Action` = 0 OR ((`Feature`.`Action` = NULL OR `Feature`.`Action` = 3) AND `Component`.`Action` = 0 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2))) 
+Action start 12:28:41: MsiUnpublishAssemblies.
+MSI (s) (68:58) [12:28:41:577]: Doing action: UnpublishFeatures
+MSI (s) (68:58) [12:28:41:578]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: MsiUnpublishAssemblies. Return value 0.
+Action start 12:28:41: UnpublishFeatures.
+MSI (s) (68:58) [12:28:41:580]: Doing action: StopServices
+MSI (s) (68:58) [12:28:41:580]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnpublishFeatures. Return value 1.
+MSI (s) (68:58) [12:28:41:582]: Note: 1: 2205 2:  3: ServiceControl 
+MSI (s) (68:58) [12:28:41:582]: Note: 1: 2228 2:  3: ServiceControl 4: SELECT `Name`,`Wait`,`Arguments`,`Event`, `Action` FROM `ServiceControl`, `Component` WHERE `Component_` = `Component` AND (`Action` = 0 OR `Action` = 1 OR `Action` = 2) 
+Action start 12:28:41: StopServices.
+MSI (s) (68:58) [12:28:41:583]: Doing action: DeleteServices
+MSI (s) (68:58) [12:28:41:583]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: StopServices. Return value 1.
+MSI (s) (68:58) [12:28:41:584]: Note: 1: 2205 2:  3: ServiceControl 
+MSI (s) (68:58) [12:28:41:584]: Note: 1: 2228 2:  3: ServiceControl 4: SELECT `Name`,`Wait`,`Arguments`,`Event`, `Action` FROM `ServiceControl`, `Component` WHERE `Component_` = `Component` AND (`Action` = 0 OR `Action` = 1 OR `Action` = 2) 
+Action start 12:28:41: DeleteServices.
+MSI (s) (68:58) [12:28:41:585]: Doing action: UnregisterComPlus
+MSI (s) (68:58) [12:28:41:585]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: DeleteServices. Return value 1.
+MSI (s) (68:58) [12:28:41:587]: Note: 1: 2205 2:  3: Complus 
+MSI (s) (68:58) [12:28:41:587]: Note: 1: 2228 2:  3: Complus 4: SELECT `Component`.`ComponentId`,  `FileName`, `Component`.`Directory_`, `ExpType`, `Component`.`Action`, `Component`.`Installed`  FROM `Complus`, `Component`, `File`, `__MsiPatchFileList` WHERE `Complus`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND `__MsiPatchFileList`.`File_` = `File`.`File` AND `Action` = 0 
+Action start 12:28:41: UnregisterComPlus.
+MSI (s) (68:58) [12:28:41:588]: Doing action: SelfUnregModules
+MSI (s) (68:58) [12:28:41:588]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnregisterComPlus. Return value 0.
+MSI (s) (68:58) [12:28:41:590]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (68:58) [12:28:41:590]: Note: 1: 2228 2:  3: SelfReg 4: Select `File`.`FileName`,`Component`.`Directory_`,`Component`.`Installed`, `File`.`Component_`,`SelfReg`.`File_`  From `SelfReg`, `File`, `Component` Where `SelfReg`.`File_` = `File`.`File` And `File`.`Component_` = `Component`.`Component` And `Component`.`Action` = 0 
+Action start 12:28:41: SelfUnregModules.
+MSI (s) (68:58) [12:28:41:590]: Doing action: UnregisterTypeLibraries
+MSI (s) (68:58) [12:28:41:590]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: SelfUnregModules. Return value 1.
+MSI (s) (68:58) [12:28:41:592]: Note: 1: 2205 2:  3: TypeLib 
+MSI (s) (68:58) [12:28:41:592]: Note: 1: 2228 2:  3: TypeLib 4: SELECT `LibID`, `TypeLib`.`Version`, `TypeLib`.`Language`, `TypeLib`.`Directory_`, `FileName`, `Component`.`Directory_`, `Component`.`Action`, `Component`.`Installed`, `BinaryType`, `Component`.`Component`, `Component`.`Attributes` FROM `TypeLib`, `Component`, `File` WHERE `TypeLib`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND (`Component`.`Action`=0) 
+Action start 12:28:41: UnregisterTypeLibraries.
+MSI (s) (68:58) [12:28:41:593]: Doing action: RemoveODBC
+MSI (s) (68:58) [12:28:41:593]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnregisterTypeLibraries. Return value 0.
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2205 2:  3: ODBCDataSource 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2228 2:  3: ODBCDataSource 4: SELECT `DataSource`,`Component`.`ComponentId`,`DriverDescription`,`Description`,`Registration` FROM `ODBCDataSource`, `Component`, `File`, `__MsiPatchFileList` WHERE `ODBCDataSource`.`Component_` = `Component`.`Component` AND `Component`.`Action` = 0 AND `File`.`Component_` = `ODBCDataSource`.`Component_` AND `File`.`File` = `__MsiPatchFileList`.`File_` AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2205 2:  3: ODBCDataSource 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2228 2:  3: ODBCDataSource 4: SELECT `DataSource`,`Component`.`ComponentId`,`DriverDescription`,`Description`,`Registration` FROM `ODBCDataSource`, `Component`, `File`, `__MsiPatchFileList` WHERE `ODBCDataSource`.`Component_` = `Component`.`Component` AND `Component`.`Action` = 0 AND `File`.`Component_` = `ODBCDataSource`.`Component_` AND `File`.`File` = `__MsiPatchFileList`.`File_` AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2205 2:  3: ODBCTranslator 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2228 2:  3: ODBCTranslator 4: SELECT `Translator`,`Component`.`ComponentId`,`Description`, `RuntimeFlags`, `Component`.`Attributes` FROM `ODBCTranslator`, `Component`, `__MsiPatchFileList` WHERE `ODBCTranslator`.`File_`=`__MsiPatchFileList`.`File_` AND `Component_` = `Component` AND `Component`.`ActionRequest` = 0 AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2205 2:  3: ODBCTranslator 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2228 2:  3: ODBCTranslator 4: SELECT `Translator`,`Component`.`ComponentId`,`Description`, `RuntimeFlags`, `Component`.`Attributes` FROM `ODBCTranslator`, `Component`, `__MsiPatchFileList` WHERE `ODBCTranslator`.`File_`=`__MsiPatchFileList`.`File_` AND `Component_` = `Component` AND `Component`.`ActionRequest` = 0 AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2205 2:  3: ODBCDriver 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2228 2:  3: ODBCDriver 4: SELECT `Driver`,`Component`.`ComponentId`,`Description`, `RuntimeFlags`, `Component`.`Attributes` FROM `ODBCDriver`, `Component`, `__MsiPatchFileList` WHERE `File`.`File`=`__MsiPatchFileList`.`File_` AND `Component_` = `Component` AND `Component`.`ActionRequest` = 0 AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2205 2:  3: ODBCDriver 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2228 2:  3: ODBCDriver 4: SELECT `Driver`,`Component`.`ComponentId`,`Description`, `RuntimeFlags`, `Component`.`Attributes` FROM `ODBCDriver`, `Component`, `__MsiPatchFileList` WHERE `File`.`File`=`__MsiPatchFileList`.`File_` AND `Component_` = `Component` AND `Component`.`ActionRequest` = 0 AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:595]: Note: 1: 2711 2: ODBCDriverManager 
+Action start 12:28:41: RemoveODBC.
+MSI (s) (68:58) [12:28:41:596]: Note: 1: 2711 2: ODBCDriverManager64 
+MSI (s) (68:58) [12:28:41:598]: Doing action: UnregisterFonts
+MSI (s) (68:58) [12:28:41:598]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveODBC. Return value 1.
+MSI (s) (68:58) [12:28:41:599]: Note: 1: 2205 2:  3: Font 
+MSI (s) (68:58) [12:28:41:599]: Note: 1: 2228 2:  3: Font 4: SELECT `FontTitle`, `FileName`, `Directory_`, `Installed`From `Font`, `FileAction` Where `Font`.`File_` = `FileAction`.`File` And `FileAction`.`Action` = 0 ORDER BY `FileAction`.`Directory_` 
+Action start 12:28:41: UnregisterFonts.
+MSI (s) (68:58) [12:28:41:600]: Doing action: RemoveRegistryValues
+MSI (s) (68:58) [12:28:41:600]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnregisterFonts. Return value 1.
+MSI (s) (68:58) [12:28:41:602]: Transforming table RemoveRegistry.
+
+MSI (s) (68:58) [12:28:41:602]: Transforming table RemoveRegistry.
+
+MSI (s) (68:58) [12:28:41:602]: Note: 1: 2262 2: RemoveRegistry 3: -2147287038 
+Action start 12:28:41: RemoveRegistryValues.
+MSI (s) (68:58) [12:28:41:612]: Doing action: UnregisterClassInfo
+MSI (s) (68:58) [12:28:41:612]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveRegistryValues. Return value 1.
+MSI (s) (68:58) [12:28:41:614]: Note: 1: 2205 2:  3: Class 
+MSI (s) (68:58) [12:28:41:614]: Note: 1: 2228 2:  3: Class 4: SELECT `BinaryType`, `CLSID`, `ProgId_Default`, `Class`.`Description`, `Context`, `Feature_`, `ComponentId`, `Component`, `Class`.`Attributes`, `AppId_`, `FileTypeMask`, `Icon_`, `IconIndex`, `DefInprocHandler`, `Argument`, `Component`.`RuntimeFlags`, `FileName`, `Component`.`Directory_`, `Component`.`Action`, `Component`.`Installed`, `Feature`.`Action`, `Component`.`Attributes` FROM `Class`, `Component`, `File`, `Feature` WHERE `Feature_` = `Feature` AND `Class`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND (`Feature`.`Action` = 0 OR (`Feature`.`Action` = 4 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2)) OR ((`Feature`.`Action` = NULL OR `Feature`.`Action` = 3) AND `Component`.`Action` = 0 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2))) 
+Action start 12:28:41: UnregisterClassInfo.
+MSI (s) (68:58) [12:28:41:615]: Doing action: UnregisterMIMEInfo
+MSI (s) (68:58) [12:28:41:615]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnregisterClassInfo. Return value 0.
+MSI (s) (68:58) [12:28:41:617]: Note: 1: 2205 2:  3: MIME 
+MSI (s) (68:58) [12:28:41:617]: Note: 1: 2228 2:  3: MIME 4: SELECT `BinaryType`, `ContentType`, `Extension`.`Extension`, `MIME`.`CLSID`, `Component`.`RuntimeFlags`, `Component`.`Component`, `Component`.`Attributes` FROM `MIME`, `Extension`, `Feature`, `Component` WHERE `MIME`.`Extension_` = `Extension`.`Extension` AND `Feature_` = `Feature` AND `Extension`.`Component_` = `Component` AND (`Feature`.`Action` = 0 OR (`Feature`.`Action` = 4 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2)) OR ((`Feature`.`Action` = NULL OR `Feature`.`Action` = 3) AND `Component`.`Action` = 0 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2))) 
+Action start 12:28:41: UnregisterMIMEInfo.
+MSI (s) (68:58) [12:28:41:618]: Doing action: RemoveIniValues
+MSI (s) (68:58) [12:28:41:618]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: UnregisterMIMEInfo. Return value 0.
+MSI (s) (68:58) [12:28:41:620]: Note: 1: 2205 2:  3: IniFile 
+MSI (s) (68:58) [12:28:41:620]: Note: 1: 2228 2:  3: IniFile 4: SELECT `FileName`,`IniFile`.`DirProperty`,`Section`,`IniFile`.`Key`,`IniFile`.`Value`,`IniFile`.`Action` FROM `IniFile`, `Component` WHERE `Component`=`Component_` AND `Component`.`Action`=0 ORDER BY `FileName`,`Section` 
+Action start 12:28:41: RemoveIniValues.
+MSI (s) (68:58) [12:28:41:620]: Doing action: RemoveShortcuts
+MSI (s) (68:58) [12:28:41:620]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveIniValues. Return value 1.
+MSI (s) (68:58) [12:28:41:622]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (68:58) [12:28:41:622]: Note: 1: 2228 2:  3: Shortcut 4: SELECT  `Shortcut`,`Name`, null, `Shortcut`.`Directory_`, `Component`.`RuntimeFlags`, `Feature`.`Action`, `Component`.`Action` From  `Shortcut`, `Feature`, `Component` WHERE `Target` = `Feature` AND `Shortcut`.`Component_` = `Component` AND (`Feature`.`Action` = 0 OR (`Feature`.`Action` = 4 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2)) OR ((`Feature`.`Action` = NULL OR `Feature`.`Action` = 3) AND `Component`.`Action` = 0 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2))) 
+Action start 12:28:41: RemoveShortcuts.
+MSI (s) (68:58) [12:28:41:623]: Doing action: RemoveEnvironmentStrings
+MSI (s) (68:58) [12:28:41:623]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveShortcuts. Return value 0.
+MSI (s) (68:58) [12:28:41:625]: Note: 1: 2205 2:  3: Environment 
+MSI (s) (68:58) [12:28:41:625]: Note: 1: 2228 2:  3: Environment 4: SELECT `Name`,`Value` FROM `Environment`,`Component` WHERE `Component_`=`Component` AND (`Component`.`Action` = 0) 
+Action start 12:28:41: RemoveEnvironmentStrings.
+MSI (s) (68:58) [12:28:41:625]: Doing action: RemoveDuplicateFiles
+MSI (s) (68:58) [12:28:41:625]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveEnvironmentStrings. Return value 1.
+Action start 12:28:41: RemoveDuplicateFiles.
+MSI (s) (68:58) [12:28:41:628]: Doing action: RemoveFiles
+MSI (s) (68:58) [12:28:41:628]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveDuplicateFiles. Return value 1.
+MSI (s) (68:58) [12:28:41:629]: Note: 1: 2205 2:  3: RemoveFile 
+MSI (s) (68:58) [12:28:41:629]: Note: 1: 2205 2:  3: RemoveFile 
+Action start 12:28:41: RemoveFiles.
+MSI (s) (68:58) [12:28:41:630]: Doing action: RemoveFolders
+MSI (s) (68:58) [12:28:41:630]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveFiles. Return value 0.
+Action start 12:28:41: RemoveFolders.
+MSI (s) (68:58) [12:28:41:632]: Doing action: CreateFolders
+MSI (s) (68:58) [12:28:41:632]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RemoveFolders. Return value 1.
+Action start 12:28:41: CreateFolders.
+MSI (s) (68:58) [12:28:41:635]: Doing action: MoveFiles
+MSI (s) (68:58) [12:28:41:635]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: CreateFolders. Return value 1.
+Action start 12:28:41: MoveFiles.
+MSI (s) (68:58) [12:28:41:637]: Doing action: InstallFiles
+MSI (s) (68:58) [12:28:41:637]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: MoveFiles. Return value 1.
+Action start 12:28:41: InstallFiles.
+MSI (s) (68:58) [12:28:41:643]: Note: 1: 2205 2:  3: MsiPatchOldAssemblyFile 
+MSI (s) (68:58) [12:28:41:643]: Note: 1: 2228 2:  3: MsiPatchOldAssemblyFile 4: SELECT `MsiPatchOldAssemblyFile`.`Assembly_` FROM `MsiPatchOldAssemblyFile` WHERE  `MsiPatchOldAssemblyFile`.`File_` = ? 
+MSI (s) (68:58) [12:28:41:643]: Note: 1: 2205 2:  3: MsiSFCBypass 
+MSI (s) (68:58) [12:28:41:643]: Note: 1: 2228 2:  3: MsiSFCBypass 4: SELECT `File_` FROM `MsiSFCBypass` WHERE `File_` = ? 
+MSI (s) (68:58) [12:28:41:643]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (68:58) [12:28:41:643]: Note: 1: 2228 2:  3: MsiPatchHeaders 4: SELECT `Header` FROM `MsiPatchHeaders` WHERE `StreamRef` = ? 
+MSI (s) (68:58) [12:28:41:645]: Note: 1: 2205 2:  3: MsiPatchHeaders 
+MSI (s) (68:58) [12:28:41:647]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:647]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:685]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:686]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:688]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:688]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:691]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:691]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:693]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:693]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:695]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:695]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:699]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:699]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:701]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:701]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:704]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:704]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:706]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:706]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:708]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:708]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:710]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:710]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:712]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:712]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:715]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:715]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:717]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:717]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:719]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:719]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:721]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:721]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:723]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:723]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:725]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:725]: Transforming table Property.
+
+MSI (s) (68:58) [12:28:41:738]: Doing action: DuplicateFiles
+MSI (s) (68:58) [12:28:41:738]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: InstallFiles. Return value 1.
+Action start 12:28:41: DuplicateFiles.
+MSI (s) (68:58) [12:28:41:741]: Doing action: BindImage
+MSI (s) (68:58) [12:28:41:741]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: DuplicateFiles. Return value 1.
+Action start 12:28:41: BindImage.
+MSI (s) (68:58) [12:28:41:743]: Doing action: RegisterClassInfo
+MSI (s) (68:58) [12:28:41:743]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: BindImage. Return value 1.
+MSI (s) (68:58) [12:28:41:745]: Note: 1: 2205 2:  3: Class 
+MSI (s) (68:58) [12:28:41:745]: Note: 1: 2228 2:  3: Class 4: SELECT `BinaryType`, `CLSID`, `ProgId_Default`, `Class`.`Description`, `Context`, `Feature_`, `ComponentId`, `Component`, `Class`.`Attributes`, `AppId_`, `FileTypeMask`, `Icon_`, `IconIndex`, `DefInprocHandler`, `Argument`, `Component`.`RuntimeFlags`, `FileName`, `Component`.`Directory_`, `Component`.`Action`, `Component`.`Installed`, `Feature`.`Action`, `Component`.`Attributes` FROM `Class`, `Component`, `File`, `Feature` WHERE `Feature_` = `Feature` AND `Class`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND ((`Feature`.`Action` = 1 OR `Feature`.`Action` = 2)  OR (`Feature`.`Action` = 4 AND `Feature`.`Installed` = 0) OR (`Feature`.`Action` = 3 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4)) OR (`Feature`.`Action` = NULL AND (`Component`.`Action` = 1 OR `Component`.`Action` = 2) AND ((`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4)))) 
+Action start 12:28:41: RegisterClassInfo.
+MSI (s) (68:58) [12:28:41:746]: Doing action: RegisterMIMEInfo
+MSI (s) (68:58) [12:28:41:746]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterClassInfo. Return value 0.
+MSI (s) (68:58) [12:28:41:748]: Note: 1: 2205 2:  3: MIME 
+MSI (s) (68:58) [12:28:41:748]: Note: 1: 2228 2:  3: MIME 4: SELECT `BinaryType`, `ContentType`, `Extension`.`Extension`, `MIME`.`CLSID`, `Component`.`RuntimeFlags`, `Component`.`Component`, `Component`.`Attributes` FROM `MIME`, `Extension`, `Feature`, `Component` WHERE `MIME`.`Extension_` = `Extension`.`Extension` AND `Feature_` = `Feature` AND `Extension`.`Component_` = `Component` AND ((`Feature`.`Action` = 1 OR `Feature`.`Action` = 2)  OR (`Feature`.`Action` = 4 AND `Feature`.`Installed` = 0) OR (`Feature`.`Action` = 3 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4)) OR (`Feature`.`Action` = NULL AND (`Component`.`Action` = 1 OR `Component`.`Action` = 2) AND ((`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4)))) 
+Action start 12:28:41: RegisterMIMEInfo.
+MSI (s) (68:58) [12:28:41:749]: Doing action: RegisterTypeLibraries
+MSI (s) (68:58) [12:28:41:749]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterMIMEInfo. Return value 0.
+MSI (s) (68:58) [12:28:41:751]: Note: 1: 2205 2:  3: TypeLib 
+MSI (s) (68:58) [12:28:41:751]: Note: 1: 2228 2:  3: TypeLib 4: SELECT `LibID`, `TypeLib`.`Version`, `TypeLib`.`Language`, `TypeLib`.`Directory_`, `FileName`, `Component`.`Directory_`, `Component`.`Action`, `Component`.`Installed`, `BinaryType`, `Component`.`Component`, `Component`.`Attributes`, `Component`.`RuntimeFlags` FROM `TypeLib`, `Component`, `File` WHERE `TypeLib`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND ((`Component`.`Action`=1 OR `Component`.`Action`=2) OR (`Component`.`Action` = null AND (`Component`.`ActionRequest` = 1 OR `Component`.`ActionRequest` = 2))) 
+Action start 12:28:41: RegisterTypeLibraries.
+MSI (s) (68:58) [12:28:41:751]: Skipping action: CA_SetLogonUserPrefix_x86 (condition is false)
+MSI (s) (68:58) [12:28:41:751]: Doing action: WriteRegistryValues
+MSI (s) (68:58) [12:28:41:751]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterTypeLibraries. Return value 0.
+Action start 12:28:41: WriteRegistryValues.
+MSI (s) (68:58) [12:28:41:804]: Doing action: WriteIniValues
+MSI (s) (68:58) [12:28:41:804]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: WriteRegistryValues. Return value 1.
+MSI (s) (68:58) [12:28:41:806]: Note: 1: 2205 2:  3: IniFile 
+MSI (s) (68:58) [12:28:41:806]: Note: 1: 2228 2:  3: IniFile 4: SELECT `FileName`,`IniFile`.`DirProperty`,`Section`,`IniFile`.`Key`,`IniFile`.`Value`,`IniFile`.`Action` FROM `IniFile`, `Component` WHERE `Component`=`Component_` AND (`Component`.`Action`=1 OR `Component`.`Action`=2) ORDER BY `FileName`,`Section` 
+Action start 12:28:41: WriteIniValues.
+MSI (s) (68:58) [12:28:41:806]: Doing action: WriteEnvironmentStrings
+MSI (s) (68:58) [12:28:41:807]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: WriteIniValues. Return value 1.
+MSI (s) (68:58) [12:28:41:808]: Note: 1: 2205 2:  3: Environment 
+MSI (s) (68:58) [12:28:41:808]: Note: 1: 2228 2:  3: Environment 4: SELECT `Name`,`Value` FROM `Environment`,`Component` WHERE `Component_`=`Component` AND (`Component`.`Action` = 1 OR `Component`.`Action` = 2) 
+Action start 12:28:41: WriteEnvironmentStrings.
+MSI (s) (68:58) [12:28:41:809]: Doing action: RegisterFonts
+MSI (s) (68:58) [12:28:41:809]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: WriteEnvironmentStrings. Return value 1.
+MSI (s) (68:58) [12:28:41:811]: Note: 1: 2205 2:  3: Font 
+MSI (s) (68:58) [12:28:41:811]: Note: 1: 2228 2:  3: Font 4: SELECT `FontTitle`, `FileName`, `Directory_`, `Action` From `Font`, `FileAction` Where `Font`.`File_` = `FileAction`.`File` And (`FileAction`.`Action` = 1 Or `FileAction`.`Action` = 2) ORDER BY `FileAction`.`Directory_` 
+Action start 12:28:41: RegisterFonts.
+MSI (s) (68:58) [12:28:41:811]: Doing action: InstallODBC
+MSI (s) (68:58) [12:28:41:811]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterFonts. Return value 1.
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2711 2: ODBCDriverManager 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2711 2: ODBCDriverManager64 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2205 2:  3: ODBCDriver 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2228 2:  3: ODBCDriver 4: SELECT `Driver`,`Component`.`ComponentId`,`Description`,`RuntimeFlags`,`Directory_`,`FileName`,`File_Setup`,`Action` FROM `ODBCDriver`, `File`, `Component`, `__MsiPatchFileList` WHERE `File`.`File`=`__MsiPatchFileList`.`File_` AND `ODBCDriver`.`File_` = `File`.`File` AND `ODBCDriver`.`Component_` = `Component` AND (`Component`.`ActionRequest` = 1 OR `Component`.`ActionRequest` = 2) AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2205 2:  3: ODBCDriver 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2228 2:  3: ODBCDriver 4: SELECT `Driver`,`Component`.`ComponentId`,`Description`,`RuntimeFlags`,`Directory_`,`FileName`,`File_Setup`,`Action` FROM `ODBCDriver`, `File`, `Component`, `__MsiPatchFileList` WHERE `File`.`File`=`__MsiPatchFileList`.`File_` AND `ODBCDriver`.`File_` = `File`.`File` AND `ODBCDriver`.`Component_` = `Component` AND (`Component`.`ActionRequest` = 1 OR `Component`.`ActionRequest` = 2) AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2205 2:  3: ODBCTranslator 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2228 2:  3: ODBCTranslator 4: SELECT `Translator`,`Component`.`ComponentId`,`Description`,`RuntimeFlags`,`Directory_`,`FileName`,`File_Setup`,`Action` FROM `ODBCTranslator`, `File`, `Component`, `__MsiPatchFileList` WHERE `ODBCTranslator`.`File_`=`__MsiPatchFileList`.`File_` AND `ODBCTranslator`.`File_` = `File`.`File` AND `ODBCTranslator`.`Component_` = `Component` AND (`Component`.`ActionRequest` = 1 OR `Component`.`ActionRequest` = 2) AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2205 2:  3: ODBCTranslator 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2228 2:  3: ODBCTranslator 4: SELECT `Translator`,`Component`.`ComponentId`,`Description`,`RuntimeFlags`,`Directory_`,`FileName`,`File_Setup`,`Action` FROM `ODBCTranslator`, `File`, `Component`, `__MsiPatchFileList` WHERE `ODBCTranslator`.`File_`=`__MsiPatchFileList`.`File_` AND `ODBCTranslator`.`File_` = `File`.`File` AND `ODBCTranslator`.`Component_` = `Component` AND (`Component`.`ActionRequest` = 1 OR `Component`.`ActionRequest` = 2) AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2205 2:  3: ODBCDataSource 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2228 2:  3: ODBCDataSource 4: SELECT `DataSource`,`Component`.`ComponentId`,`DriverDescription`,`Description`,`Registration` FROM `ODBCDataSource`, `Component`, `File`, `__MsiPatchFileList` WHERE `ODBCDataSource`.`Component_` = `Component`.`Component` AND (`Component`.`Action` = 1 OR `Component`.`Action` = 2) AND `File`.`Component_` = `ODBCDataSource`.`Component_` AND `File`.`File` = `__MsiPatchFileList`.`File_` AND `BinaryType` = ? 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2205 2:  3: ODBCDataSource 
+MSI (s) (68:58) [12:28:41:813]: Note: 1: 2228 2:  3: ODBCDataSource 4: SELECT `DataSource`,`Component`.`ComponentId`,`DriverDescription`,`Description`,`Registration` FROM `ODBCDataSource`, `Component`, `File`, `__MsiPatchFileList` WHERE `ODBCDataSource`.`Component_` = `Component`.`Component` AND (`Component`.`Action` = 1 OR `Component`.`Action` = 2) AND `File`.`Component_` = `ODBCDataSource`.`Component_` AND `File`.`File` = `__MsiPatchFileList`.`File_` AND `BinaryType` = ? 
+Action start 12:28:41: InstallODBC.
+MSI (s) (68:58) [12:28:41:814]: Doing action: SelfRegModules
+MSI (s) (68:58) [12:28:41:814]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: InstallODBC. Return value 0.
+MSI (s) (68:58) [12:28:41:816]: Note: 1: 2205 2:  3: SelfReg 
+MSI (s) (68:58) [12:28:41:816]: Note: 1: 2228 2:  3: SelfReg 4: Select `FileAction`.`FileName`,`FileAction`.`Directory_`,`FileAction`.`Action`, `FileAction`.`Component_`,`SelfReg`.`File_` From `SelfReg`, `FileAction` Where `SelfReg`.`File_` = `FileAction`.`File`  And (`FileAction`.`Action` = 1 OR `FileAction`.`Action` = 2) 
+Action start 12:28:41: SelfRegModules.
+MSI (s) (68:58) [12:28:41:817]: Doing action: RegisterComPlus
+MSI (s) (68:58) [12:28:41:817]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: SelfRegModules. Return value 1.
+MSI (s) (68:58) [12:28:41:818]: Note: 1: 2205 2:  3: Complus 
+MSI (s) (68:58) [12:28:41:818]: Note: 1: 2228 2:  3: Complus 4: SELECT `Component`.`ComponentId`,  `FileName`, `Component`.`Directory_`, `ExpType`, `Component`.`Action`, `Component`.`Installed`  FROM `Complus`, `Component`, `File`, `__MsiPatchFileList` WHERE `Complus`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND `__MsiPatchFileList`.`File_` = `File`.`File` AND (`Action` = 1 OR `Action` = 2) 
+Action start 12:28:41: RegisterComPlus.
+MSI (s) (68:58) [12:28:41:819]: Doing action: InstallServices
+MSI (s) (68:58) [12:28:41:819]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterComPlus. Return value 0.
+MSI (s) (68:58) [12:28:41:821]: Detected older ServiceInstall table schema
+MSI (s) (68:58) [12:28:41:821]: Note: 1: 2205 2:  3: ServiceInstall 
+MSI (s) (68:58) [12:28:41:821]: Note: 1: 2228 2:  3: ServiceInstall 4: SELECT `ServiceInstall`,`Name`,`DisplayName`,`ServiceType`,`StartType`,`ErrorControl`,`LoadOrderGroup`,`Dependencies`,`StartName`,`Password`,`ComponentId`,`Directory_`,`FileName`,`Arguments` FROM `ServiceInstall`, `Component`, `File` WHERE `ServiceInstall`.`Component_` = `Component`.`Component` AND (`Component`.`KeyPath` = `File`.`File`) AND (`Action` = 1 OR `Action` = 2) 
+Action start 12:28:41: InstallServices.
+MSI (s) (68:58) [12:28:41:822]: Doing action: StartServices
+MSI (s) (68:58) [12:28:41:822]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: InstallServices. Return value 1.
+MSI (s) (68:58) [12:28:41:823]: Note: 1: 2205 2:  3: ServiceControl 
+MSI (s) (68:58) [12:28:41:823]: Note: 1: 2228 2:  3: ServiceControl 4: SELECT `Name`,`Wait`,`Arguments`,`Event`, `Action` FROM `ServiceControl`, `Component` WHERE `Component_` = `Component` AND (`Action` = 0 OR `Action` = 1 OR `Action` = 2) 
+Action start 12:28:41: StartServices.
+MSI (s) (68:58) [12:28:41:824]: Doing action: RegisterUser
+MSI (s) (68:58) [12:28:41:824]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: StartServices. Return value 1.
+Action start 12:28:41: RegisterUser.
+MSI (s) (68:58) [12:28:41:826]: Doing action: RegisterProduct
+MSI (s) (68:58) [12:28:41:826]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterUser. Return value 1.
+Action start 12:28:41: RegisterProduct.
+MSI (s) (68:58) [12:28:41:831]: Re-registering product - patching existing installation.
+MSI (s) (68:58) [12:28:41:832]: PROPERTY CHANGE: Adding ProductToBeRegistered property. Its value is '1'.
+MSI (s) (68:58) [12:28:41:833]: Doing action: PublishComponents
+MSI (s) (68:58) [12:28:41:833]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: RegisterProduct. Return value 1.
+MSI (s) (68:58) [12:28:41:835]: Note: 1: 2205 2:  3: PublishComponent 
+MSI (s) (68:58) [12:28:41:835]: Note: 1: 2228 2:  3: PublishComponent 4: SELECT `PublishComponent`.`ComponentId`, `PublishComponent`.`Qualifier`, `PublishComponent`.`AppData`, `Feature`, `Component`.`ComponentId`, `Component`.`RuntimeFlags` FROM `PublishComponent`, `Component`, `Feature`  WHERE `PublishComponent`.`Component_` = `Component`.`Component` AND `PublishComponent`.`Feature_` = `Feature`.`Feature` AND ((`Feature`.`Action` = 1 OR `Feature`.`Action` = 2)  OR (`Feature`.`Action` = 4 AND `Feature`.`Installed` = 0) OR (`Feature`.`Action` = 3 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4))) 
+Action start 12:28:41: PublishComponents.
+MSI (s) (68:58) [12:28:41:836]: Doing action: MsiPublishAssemblies
+MSI (s) (68:58) [12:28:41:836]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: PublishComponents. Return value 0.
+MSI (s) (68:58) [12:28:41:851]: Note: 1: 2205 2:  3: MsiAssembly 
+MSI (s) (68:58) [12:28:41:851]: Note: 1: 2228 2:  3: MsiAssembly 4: SELECT null, null, `Component`.`Component`, `Feature`, `Component`.`ComponentId`, `Component`.`RuntimeFlags` FROM `MsiAssembly`, `Component`, `Feature`  WHERE `MsiAssembly`.`Component_` = `Component`.`Component` AND `MsiAssembly`.`Feature_` = `Feature`.`Feature` AND `MsiAssembly`.`File_Application` = null AND ((`Feature`.`Action` = 1 OR `Feature`.`Action` = 2)  OR (`Feature`.`Action` = 4 AND `Feature`.`Installed` = 0) OR (`Feature`.`Action` = 3 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4))) 
+Action start 12:28:41: MsiPublishAssemblies.
+MSI (s) (68:58) [12:28:41:852]: Doing action: PublishFeatures
+MSI (s) (68:58) [12:28:41:852]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: MsiPublishAssemblies. Return value 0.
+Action start 12:28:41: PublishFeatures.
+MSI (s) (68:58) [12:28:41:863]: Doing action: PublishProduct
+MSI (s) (68:58) [12:28:41:863]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: PublishFeatures. Return value 1.
+MSI (s) (68:58) [12:28:41:865]: Note: 1: 2205 2:  3: Icon 
+MSI (s) (68:58) [12:28:41:865]: Note: 1: 2228 2:  3: Icon 4: SELECT `Name`, `Data` FROM `Icon` 
+Action start 12:28:41: PublishProduct.
+MSI (s) (68:58) [12:28:41:874]: Doing action: CreateShortcuts
+MSI (s) (68:58) [12:28:41:874]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: PublishProduct. Return value 1.
+MSI (s) (68:58) [12:28:41:875]: Note: 1: 2205 2:  3: Shortcut 
+MSI (s) (68:58) [12:28:41:875]: Note: 1: 2228 2:  3: Shortcut 4: SELECT  `Shortcut`,`Name`, `FileName`, `Component`.`Directory_`, `Arguments`, `WkDir`, `Icon_`, `IconIndex`, `Hotkey`, `ShowCmd`, `Shortcut`.`Description`, `Shortcut`.`Directory_`, `Component`.`RuntimeFlags`, `Component`.`Action`, `Target`, `ComponentId`, `Feature`.`Action`, `Component`.`Installed`, `DisplayResourceDLL`, `DisplayResourceId`, `DescriptionResourceDLL`, `DescriptionResourceId` From `Shortcut`, `Feature`, `Component`, `File` WHERE `Target` = `Feature` AND `Shortcut`.`Component_` = `Component` AND `Component`.`KeyPath` = `File`.`File` AND ((`Feature`.`Action` = 1 OR `Feature`.`Action` = 2)  OR (`Feature`.`Action` = 4 AND `Feature`.`Installed` = 0) OR (`Feature`.`Action` = 3 AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4)) OR (`Feature`.`Action` = NULL AND (`Component`.`Action` = 1 OR `Component`.`Action` = 2) AND (`Feature`.`Installed` = 1 OR `Feature`.`Installed` = 2 OR `Feature`.`Installed` = 4))) 
+Action start 12:28:41: CreateShortcuts.
+MSI (s) (68:58) [12:28:41:876]: Skipping action: DDSE_CA_Uninstall_InstallFinalizePre_x86 (condition is false)
+MSI (s) (68:58) [12:28:41:876]: Doing action: InstallFinalize
+MSI (s) (68:58) [12:28:41:876]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:41: CreateShortcuts. Return value 0.
+Action start 12:28:41: InstallFinalize.
+MSI (s) (68:58) [12:28:41:895]: Running Script: C:\Windows\Installer\MSI9CB7.tmp
+MSI (s) (68:58) [12:28:41:895]: PROPERTY CHANGE: Adding UpdateStarted property. Its value is '1'.
+MSI (s) (68:58) [12:28:41:901]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (68:58) [12:28:41:902]: Machine policy value 'DisableRollback' is 0
+MSI (s) (68:58) [12:28:41:938]: Note: 1: 2318 2:  
+MSI (s) (68:58) [12:28:41:938]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (68:58) [12:28:41:939]: Executing op: Header(Signature=1397708873,Version=500,Timestamp=1395483541,LangId=0,Platform=0,ScriptType=1,ScriptMajorVersion=21,ScriptMinorVersion=4,ScriptAttributes=1)
+MSI (s) (68:58) [12:28:41:954]: Executing op: ProductInfo(ProductKey={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductName=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219,PackageName=vc_red.msi,Language=0,Version=167812379,Assignment=1,ObsoleteArg=0,,,PackageCode={461C455E-DA40-49B3-871B-14308CC7CEFF},,,InstanceType=0,LUASetting=1,RemoteURTInstalls=0,ProductDeploymentFlags=3)
+MSI (s) (68:58) [12:28:41:964]: Executing op: DialogInfo(Type=0,Argument=0)
+MSI (s) (68:58) [12:28:41:965]: Executing op: DialogInfo(Type=1,Argument=Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219)
+MSI (s) (68:58) [12:28:41:966]: Executing op: RollbackInfo(,RollbackAction=Rollback,RollbackDescription=Rolling back action:,RollbackTemplate=[1],CleanupAction=RollbackCleanup,CleanupDescription=Removing backup files,CleanupTemplate=File: [1])
+MSI (s) (68:58) [12:28:41:966]: Executing op: SetBaseline(Baseline=0,ProductVersion=10.0.40219)
+MSI (s) (68:58) [12:28:41:974]: Executing op: SetBaseline(Baseline=1,)
+MSI (s) (68:58) [12:28:41:974]: Executing op: ActionStart(Name=ProcessComponents,Description=Updating component registration,)
+MSI (s) (68:58) [12:28:41:976]: Executing op: ProgressTotal(Total=79,Type=1,ByteEquivalent=24000)
+MSI (s) (68:58) [12:28:41:976]: Executing op: ComponentRegister(ComponentId={8453C4E7-26E8-3408-B3A4-5940CA95BC60},KeyPath=02:\SOFTWARE\Microsoft\VisualStudio\10.0\VC\VCRedist\x86\Version,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:41:979]: Executing op: ComponentRegister(ComponentId={1414BD84-D9A5-3EE5-AA73-118D7C072370},KeyPath=02:\SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\red\x86\1033\Install,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:41:981]: Executing op: ComponentRegister(ComponentId={E2F46933-FF4F-46E0-B997-F64D2C6D4FA1},KeyPath=c:\Program Files\Common Files\Microsoft Shared\VC\msdia100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:41:984]: Executing op: ComponentRegister(ComponentId={529D0A60-398C-38A2-97EF-82FAFA798A06},KeyPath=c:\Windows\system32\atl100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:003]: Executing op: ComponentRegister(ComponentId={9983C931-37BE-3C6E-AD32-8B6E789B6881},KeyPath=c:\Windows\system32\msvcr100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:005]: Executing op: ComponentRegister(ComponentId={E822F933-C70D-3CF4-A92D-7263B8ACCF30},KeyPath=c:\Windows\system32\msvcp100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:007]: Executing op: ComponentRegister(ComponentId={BD9EEBE8-E882-3AE3-B666-6BA11DE68644},KeyPath=c:\Windows\system32\mfc100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:009]: Executing op: ComponentRegister(ComponentId={22EC2346-6812-34C9-B77F-23604B1A4EB1},KeyPath=c:\Windows\system32\mfc100u.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:025]: Executing op: ComponentRegister(ComponentId={05731427-78B9-30A4-8688-44FB485481BF},KeyPath=c:\Windows\system32\mfcm100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:027]: Executing op: ComponentRegister(ComponentId={692BDA22-6D55-3EA3-904B-3117FA2B2D9E},KeyPath=c:\Windows\system32\mfcm100u.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:029]: Executing op: ComponentRegister(ComponentId={927EF971-7B89-3C4B-91DA-51CE0F7D982A},KeyPath=c:\Windows\system32\mfc100cht.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:031]: Executing op: ComponentRegister(ComponentId={D80A1213-61AA-3E66-A736-F947E77545C5},KeyPath=c:\Windows\system32\mfc100chs.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:032]: Executing op: ComponentRegister(ComponentId={653DE356-DFD3-3229-A5DE-EBC634D40A41},KeyPath=c:\Windows\system32\mfc100enu.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:033]: Executing op: ComponentRegister(ComponentId={42C6981D-DB47-3C2F-91EA-F7B4C6E226A8},KeyPath=c:\Windows\system32\mfc100deu.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:036]: Executing op: ComponentRegister(ComponentId={425FAFC8-F15C-310A-9DA8-0F7373BC8836},KeyPath=c:\Windows\system32\mfc100esn.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:037]: Executing op: ComponentRegister(ComponentId={8D777564-3D2C-3705-8DB9-E36585E8F210},KeyPath=c:\Windows\system32\mfc100fra.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:039]: Executing op: ComponentRegister(ComponentId={D57FEB33-5BFA-3C5F-92EF-C52A350A6751},KeyPath=c:\Windows\system32\mfc100ita.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:040]: Executing op: ComponentRegister(ComponentId={72ED6979-0AAD-317C-A25C-AB9A121E6D30},KeyPath=c:\Windows\system32\mfc100jpn.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:043]: Executing op: ComponentRegister(ComponentId={DDFFBEDE-4039-314B-AC8D-215FA275C8A3},KeyPath=c:\Windows\system32\mfc100kor.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:045]: Executing op: ComponentRegister(ComponentId={5C1ED740-C5A7-3162-B9B5-0FB6D6D9FFF6},KeyPath=c:\Windows\system32\mfc100rus.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:046]: Executing op: ComponentRegister(ComponentId={CED7B6A0-2035-37FB-9F32-8C5C38AC6535},KeyPath=c:\Windows\system32\vcomp100.dll,State=3,,Disk=1,SharedDllRefCount=1,BinaryType=0)
+MSI (s) (68:58) [12:28:42:048]: Executing op: ComponentRegister(ComponentId={99111165-3513-4F20-A27C-C3F53F12B87B},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:049]: Executing op: ComponentRegister(ComponentId={92058FC7-D2E5-4674-A5FE-BF1A9CCC66AE},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:050]: Executing op: ComponentRegister(ComponentId={2A1B9533-8F0C-49F1-A6FE-C620090F7A36},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:051]: Executing op: ComponentRegister(ComponentId={322AA309-594F-41C9-9748-0FF3CDC1FEFD},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:053]: Executing op: ComponentRegister(ComponentId={5B1AFBD1-6D59-4081-A9EF-663A31B8BE3C},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:055]: Executing op: ComponentRegister(ComponentId={B6271577-A74D-458E-89A2-D073FB2FBA74},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:056]: Executing op: ComponentRegister(ComponentId={3474BC53-B0C0-4D94-963F-CFF3D64FF6D3},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:058]: Executing op: ComponentRegister(ComponentId={9D327007-72B5-4357-938A-4F08C91A1D58},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:059]: Executing op: ComponentRegister(ComponentId={A22BF9A0-B060-463D-9984-6E7B79B58D05},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:060]: Executing op: ComponentRegister(ComponentId={EA9CDF06-ED68-4AE9-9B8A-DD8E7E78876F},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:079]: Executing op: ComponentRegister(ComponentId={C3D77772-25D1-4B54-8385-A8D9DC4884D5},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:080]: Executing op: ComponentRegister(ComponentId={79A58386-0EA9-4C72-BD7B-5FB3A10DACF9},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:082]: Executing op: ComponentRegister(ComponentId={84D03028-8407-49E2-B889-5A4D832C77A5},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:084]: Executing op: ComponentRegister(ComponentId={B31C8083-3A46-4BC9-99A9-6DB25BE70DCA},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:085]: Executing op: ComponentRegister(ComponentId={DE6A942C-04F1-4516-B8F2-50690CAE98CB},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:086]: Executing op: ComponentRegister(ComponentId={2C75D8E0-CBB6-4AB0-80B6-A66ED528A097},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:088]: Executing op: ComponentRegister(ComponentId={55DF124D-0779-4CB7-B583-AAD890AFC338},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:090]: Executing op: ComponentRegister(ComponentId={0EE85841-1AF0-4FF6-8AD0-0F690DEB5815},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:091]: Executing op: ComponentRegister(ComponentId={F81CC59E-639A-4276-A493-261EE8C14D86},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:092]: Executing op: ComponentRegister(ComponentId={9CABDC15-C601-4A16-993B-FB0DF1BAE452},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:094]: Executing op: ComponentRegister(ComponentId={9D019D76-634E-44CB-864B-77579A6D5A7D},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:095]: Executing op: ComponentRegister(ComponentId={FA8F11D6-40BC-42DF-8552-9EAA291E726E},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:096]: Executing op: ComponentRegister(ComponentId={C605B199-D4AA-433B-BA2B-C08175DC1E2D},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:097]: Executing op: ComponentRegister(ComponentId={5D57B4F6-8727-4D4A-B378-E3506B4D84B3},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:099]: Executing op: ComponentRegister(ComponentId={500D6BB7-1ACD-4E75-8256-C3471AC69738},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:100]: Executing op: ComponentRegister(ComponentId={CBDE57E4-54D9-4B8C-BCEF-8967ADB9CC79},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:101]: Executing op: ComponentRegister(ComponentId={799AE511-B834-39F7-8FBE-1F55ECA53CE5},KeyPath=02:\SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\SP,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:102]: Executing op: ComponentRegister(ComponentId={9C761D98-3F8B-3060-A8BD-78BA1C734DC3},KeyPath=02:\SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\red\Install,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:103]: Executing op: ComponentRegister(ComponentId={1CA7C578-5E0A-37CB-BC27-732362AA9DDB},KeyPath=02:\SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\red\1033\Install,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:104]: Executing op: ComponentRegister(ComponentId={ED667CEF-493D-38B3-9EBB-810050DB6148},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:106]: Executing op: ComponentRegister(ComponentId={31C4834D-28EA-3F08-BE84-C099CEA567B5},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:107]: Executing op: ComponentRegister(ComponentId={913B40B5-AF13-3D00-AAB3-45F98D2C494E},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2467173\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:122]: Executing op: ComponentRegister(ComponentId={83D60986-8F71-3300-87F8-932BDC0BA464},KeyPath=02:\SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\KB2467173\ThisVersionInstalled,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:124]: Executing op: ComponentRegister(ComponentId={CD691EC9-299C-3B2A-9EAB-CBE9C5EF4A87},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:126]: Executing op: ComponentRegister(ComponentId={A2013523-F46F-364C-B1C9-1AB7C3BDB7B0},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:127]: Executing op: ComponentRegister(ComponentId={B60D71D2-0087-3824-AAB6-0FAA91BC517E},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2151757\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:128]: Executing op: ComponentRegister(ComponentId={9ED903B7-D287-30B3-AB43-859CAA18C3FA},KeyPath=02:\SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\KB2151757\ThisVersionInstalled,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:129]: Executing op: ComponentRegister(ComponentId={B63FB370-B030-306C-9EAA-F98861BAF965},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:130]: Executing op: ComponentRegister(ComponentId={1A67BE4F-53AA-319D-A339-469EC1A0DD71},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:132]: Executing op: ComponentRegister(ComponentId={1B7FE019-EF69-3CF3-BDDA-F7250B0BC809},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB982573\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:133]: Executing op: ComponentRegister(ComponentId={F6FBE57C-4C32-3615-B8CF-594A845AFDA5},KeyPath=02:\SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\KB982573\ThisVersionInstalled,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:134]: Executing op: ComponentRegister(ComponentId={7E4721EC-099F-35D4-BAAA-4A946FDE0613},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:135]: Executing op: ComponentRegister(ComponentId={45FB2D99-6545-3DE2-8CE3-A42704379236},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2544655\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:137]: Executing op: ComponentRegister(ComponentId={15D9B3F8-6C98-313C-9E4A-B78D02FB6CDC},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:138]: Executing op: ComponentRegister(ComponentId={5037E2D4-1057-3756-AAB9-8B63FF2FD7C4},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:139]: Executing op: ComponentRegister(ComponentId={2FBAFABD-4519-37AB-9316-55C4D0163DEF},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:140]: Executing op: ComponentRegister(ComponentId={53967112-A0A5-37BD-B7D3-8BE3DD1B8028},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:141]: Executing op: ComponentRegister(ComponentId={896EAF29-B397-3F73-B27E-3F31B4BDF934},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2524860\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:143]: Executing op: ComponentRegister(ComponentId={6286B408-1412-30BF-82A4-0BDA5A934D9A},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:144]: Executing op: ComponentRegister(ComponentId={BB4B9998-C9A5-3934-A9E7-DF6F99150A95},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:145]: Executing op: ComponentRegister(ComponentId={4265FE78-2128-3DD5-80DE-DDE0F6661C7B},KeyPath=02:\SOFTWARE\Microsoft\VisualStudio\10.0\VC\VCRedist\x86\KB2565063\Present,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:146]: Executing op: ComponentRegister(ComponentId={268713CB-577D-3B47-8AC3-82AACC9B8754},KeyPath=02:\SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\SP1\KB2565063\ThisVersionInstalled,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:159]: Executing op: ComponentRegister(ComponentId={D9A9AA9E-3DA8-394A-9CE8-810E90A47924},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2565063\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:161]: Executing op: ComponentRegister(ComponentId={EE597500-5212-3DA7-907A-72EE9BC271A0},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:162]: Executing op: ComponentRegister(ComponentId={A44DBEBF-18A7-385B-ABAE-B6C73B8DEE9A},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:163]: Executing op: ComponentRegister(ComponentId={FCF64D09-AB04-3D9A-8919-2128B1BACD69},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:165]: Executing op: ComponentRegister(ComponentId={6F51E5E0-1704-3004-AAE9-E0C322DA7348},KeyPath=02:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2549743\,State=3,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:166]: Executing op: ComponentRegister(ComponentId={E29493D0-220D-31AE-87AD-980B3B3E6758},,State=-7,,Disk=1,SharedDllRefCount=0,BinaryType=0)
+MSI (s) (68:58) [12:28:42:167]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:168]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:168]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:168]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:169]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:169]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:169]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:170]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:170]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:170]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:171]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:171]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:171]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:172]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:172]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:172]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:173]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:173]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:173]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:174]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:174]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:174]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:175]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:176]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:176]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:177]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:177]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:177]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:178]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:178]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:178]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:179]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:179]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:179]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:180]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:180]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:180]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:181]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:181]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:181]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:182]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:183]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:183]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:184]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:184]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:184]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:185]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:185]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:185]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:186]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:186]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:186]: Executing op: ProgressTotal(Total=1,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:187]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\SharedDLLs,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:187]: Executing op: ProgressTick()
+MSI (s) (68:58) [12:28:42:187]: Executing op: ActionStart(Name=RemoveODBC,Description=Removing ODBC components,)
+MSI (s) (68:58) [12:28:42:188]: Executing op: ODBCDriverManager(,BinaryType=0)
+MSI (s) (68:58) [12:28:42:188]: Executing op: ODBCDriverManager(,BinaryType=1)
+MSI (s) (68:58) [12:28:42:188]: Executing op: ActionStart(Name=RemoveRegistryValues,Description=Removing system registry values,Template=Key: [1], Name: [2])
+MSI (s) (68:58) [12:28:42:189]: Executing op: ProgressTotal(Total=7,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:189]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2467173,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:189]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:191]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2467173 3: 2 
+MSI (s) (68:58) [12:28:42:191]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2151757,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:191]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:192]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2151757 3: 2 
+MSI (s) (68:58) [12:28:42:192]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB982573,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:192]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:193]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB982573 3: 2 
+MSI (s) (68:58) [12:28:42:193]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2524860,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:193]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:195]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2524860 3: 2 
+MSI (s) (68:58) [12:28:42:195]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2544655,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:195]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:196]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2544655 3: 2 
+MSI (s) (68:58) [12:28:42:196]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2549743,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:196]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:197]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2549743 3: 2 
+MSI (s) (68:58) [12:28:42:197]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2565063,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:197]: Executing op: RegRemoveKey()
+MSI (s) (68:58) [12:28:42:198]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2565063 3: 2 
+MSI (s) (68:58) [12:28:42:198]: Executing op: ActionStart(Name=InstallFiles,Description=Copying new files,Template=File: [1],  Directory: [9],  Size: [6])
+MSI (s) (68:58) [12:28:42:199]: Executing op: ProgressTotal(Total=11697888,Type=0,ByteEquivalent=1)
+MSI (s) (68:58) [12:28:42:199]: Executing op: SetTargetFolder(Folder=c:\Program Files\Common Files\Microsoft Shared\VC\)
+MSI (s) (68:58) [12:28:42:200]: Executing op: SetSourceFolder(Folder=1\xlqr-nev\VS100.NET\CFiles\MSShared\VC\|Program Files\Microsoft Visual Studio 10.0\Common Files\Microsoft Shared\VC\)
+MSI (s) (68:58) [12:28:42:200]: Executing op: ChangeMedia(,MediaPrompt=Please insert the disk: 1,MediaCabinet=1\vc_red.cab,BytesPerTick=65536,CopierType=1,,,SignatureRequired=1,SignatureCert=BinaryData,,IsFirstPhysicalMedia=1)
+MSI (s) (68:58) [12:28:42:200]: Executing op: RegisterSharedComponentProvider(,,File=FL_msdia71_dll_2_60035_x86_ln.3643236F_FC70_11D3_A536_0090278A1BB8,Component={E2F46933-FF4F-46E0-B997-F64D2C6D4FA1},ComponentVersion=10.0.40219.1,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:200]: Executing op: FileCopy(SourceName=60035|msdia100.dll,SourceCabKey=FL_msdia71_dll_2_60035_x86_ln.3643236F_FC70_11D3_A536_0090278A1BB8,DestName=msdia100.dll,Attributes=512,FileSize=799568,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.1,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:215]: File: c:\Program Files\Common Files\Microsoft Shared\VC\msdia100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:215]: Source for file 'FL_msdia71_dll_2_60035_x86_ln.3643236F_FC70_11D3_A536_0090278A1BB8' is compressed
+MSI (s) (68:28) [12:28:42:219]: Validating digital signature of file 'c:\090cbc94696687b6821f\vc_red.cab'
+MSI (s) (68:28) [12:28:42:265]: Skipping file hash comparison as no hash was provided for the comparison for file 'c:\090cbc94696687b6821f\vc_red.cab'.
+MSI (s) (68:28) [12:28:42:265]: File 'c:\090cbc94696687b6821f\vc_red.cab' is a validly signed file and validates according to authoring of MSI package
+MSI (s) (68:58) [12:28:42:463]: Executing op: SetTargetFolder(Folder=c:\Windows\system32\)
+MSI (s) (68:58) [12:28:42:463]: Executing op: SetSourceFolder(Folder=1\Win\System\)
+MSI (s) (68:58) [12:28:42:463]: Executing op: ChangeMedia(,MediaPrompt=Please insert the disk: ,MediaCabinet=QFE.cab,BytesPerTick=65536,CopierType=2,ModuleFileName=c:\Windows\Installer\22949a.msp,,,,,IsFirstPhysicalMedia=1)
+MSI (s) (68:58) [12:28:42:463]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_atl100_x86,Component={529D0A60-398C-38A2-97EF-82FAFA798A06},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:464]: Executing op: FileCopy(SourceName=atl100.dll,SourceCabKey=F_CENTRAL_atl100_x86,DestName=atl100.dll,Attributes=4608,FileSize=138056,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:485]: File: c:\Windows\system32\atl100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:485]: Source for file 'F_CENTRAL_atl100_x86' is compressed
+MSI (s) (68:58) [12:28:42:495]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100_x86,Component={BD9EEBE8-E882-3AE3-B666-6BA11DE68644},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:496]: Executing op: FileCopy(SourceName=mfc100.dll,SourceCabKey=F_CENTRAL_mfc100_x86,DestName=mfc100.dll,Attributes=4608,FileSize=4397384,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:498]: File: c:\Windows\system32\mfc100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:498]: Source for file 'F_CENTRAL_mfc100_x86' is compressed
+MSI (s) (68:58) [12:28:42:573]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100chs_x86,Component={D80A1213-61AA-3E66-A736-F947E77545C5},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:573]: Executing op: FileCopy(SourceName=6ljjagmy.dll|mfc100chs.dll,SourceCabKey=F_CENTRAL_mfc100chs_x86,DestName=mfc100chs.dll,Attributes=4608,FileSize=36176,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=2052,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:575]: File: c:\Windows\system32\mfc100chs.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:575]: Source for file 'F_CENTRAL_mfc100chs_x86' is compressed
+MSI (s) (68:58) [12:28:42:578]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100cht_x86,Component={927EF971-7B89-3C4B-91DA-51CE0F7D982A},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:579]: Executing op: FileCopy(SourceName=fcsllr8c.dll|mfc100cht.dll,SourceCabKey=F_CENTRAL_mfc100cht_x86,DestName=mfc100cht.dll,Attributes=4608,FileSize=36176,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1028,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:580]: File: c:\Windows\system32\mfc100cht.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:580]: Source for file 'F_CENTRAL_mfc100cht_x86' is compressed
+MSI (s) (68:58) [12:28:42:583]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100deu_x86,Component={42C6981D-DB47-3C2F-91EA-F7B4C6E226A8},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:584]: Executing op: FileCopy(SourceName=kx5roq6m.dll|mfc100deu.dll,SourceCabKey=F_CENTRAL_mfc100deu_x86,DestName=mfc100deu.dll,Attributes=4608,FileSize=64336,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1031,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:586]: File: c:\Windows\system32\mfc100deu.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:586]: Source for file 'F_CENTRAL_mfc100deu_x86' is compressed
+MSI (s) (68:58) [12:28:42:589]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100enu_x86,Component={653DE356-DFD3-3229-A5DE-EBC634D40A41},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:590]: Executing op: FileCopy(SourceName=piw827zv.dll|mfc100enu.dll,SourceCabKey=F_CENTRAL_mfc100enu_x86,DestName=mfc100enu.dll,Attributes=4608,FileSize=55120,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:591]: File: c:\Windows\system32\mfc100enu.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:591]: Source for file 'F_CENTRAL_mfc100enu_x86' is compressed
+MSI (s) (68:58) [12:28:42:594]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100esn_x86,Component={425FAFC8-F15C-310A-9DA8-0F7373BC8836},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:595]: Executing op: FileCopy(SourceName=lehcxnqx.dll|mfc100esn.dll,SourceCabKey=F_CENTRAL_mfc100esn_x86,DestName=mfc100esn.dll,Attributes=4608,FileSize=63824,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=3082,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:596]: File: c:\Windows\system32\mfc100esn.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:596]: Source for file 'F_CENTRAL_mfc100esn_x86' is compressed
+MSI (s) (68:58) [12:28:42:600]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100fra_x86,Component={8D777564-3D2C-3705-8DB9-E36585E8F210},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:600]: Executing op: FileCopy(SourceName=dmf6dw8t.dll|mfc100fra.dll,SourceCabKey=F_CENTRAL_mfc100fra_x86,DestName=mfc100fra.dll,Attributes=4608,FileSize=64336,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1036,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:601]: File: c:\Windows\system32\mfc100fra.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:602]: Source for file 'F_CENTRAL_mfc100fra_x86' is compressed
+MSI (s) (68:58) [12:28:42:605]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100ita_x86,Component={D57FEB33-5BFA-3C5F-92EF-C52A350A6751},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:606]: Executing op: FileCopy(SourceName=75nixhkm.dll|mfc100ita.dll,SourceCabKey=F_CENTRAL_mfc100ita_x86,DestName=mfc100ita.dll,Attributes=4608,FileSize=62288,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1040,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:607]: File: c:\Windows\system32\mfc100ita.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:607]: Source for file 'F_CENTRAL_mfc100ita_x86' is compressed
+MSI (s) (68:58) [12:28:42:611]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100jpn_x86,Component={72ED6979-0AAD-317C-A25C-AB9A121E6D30},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:612]: Executing op: FileCopy(SourceName=q51ahrua.dll|mfc100jpn.dll,SourceCabKey=F_CENTRAL_mfc100jpn_x86,DestName=mfc100jpn.dll,Attributes=4608,FileSize=43856,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1041,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:613]: File: c:\Windows\system32\mfc100jpn.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:613]: Source for file 'F_CENTRAL_mfc100jpn_x86' is compressed
+MSI (s) (68:58) [12:28:42:616]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100kor_x86,Component={DDFFBEDE-4039-314B-AC8D-215FA275C8A3},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:617]: Executing op: FileCopy(SourceName=qft1hsk1.dll|mfc100kor.dll,SourceCabKey=F_CENTRAL_mfc100kor_x86,DestName=mfc100kor.dll,Attributes=4608,FileSize=43344,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1042,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:618]: File: c:\Windows\system32\mfc100kor.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:618]: Source for file 'F_CENTRAL_mfc100kor_x86' is compressed
+MSI (s) (68:58) [12:28:42:621]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100rus_x86,Component={5C1ED740-C5A7-3162-B9B5-0FB6D6D9FFF6},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:622]: Executing op: FileCopy(SourceName=6nzzyxzj.dll|mfc100rus.dll,SourceCabKey=F_CENTRAL_mfc100rus_x86,DestName=mfc100rus.dll,Attributes=4608,FileSize=60752,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1049,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:623]: File: c:\Windows\system32\mfc100rus.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:623]: Source for file 'F_CENTRAL_mfc100rus_x86' is compressed
+MSI (s) (68:58) [12:28:42:626]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfc100u_x86,Component={22EC2346-6812-34C9-B77F-23604B1A4EB1},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:627]: Executing op: FileCopy(SourceName=mfc100u.dll,SourceCabKey=F_CENTRAL_mfc100u_x86,DestName=mfc100u.dll,Attributes=4608,FileSize=4422992,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:628]: File: c:\Windows\system32\mfc100u.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:628]: Source for file 'F_CENTRAL_mfc100u_x86' is compressed
+MSI (s) (68:58) [12:28:42:689]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfcm100_x86,Component={05731427-78B9-30A4-8688-44FB485481BF},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:690]: Executing op: FileCopy(SourceName=mfcm100.dll,SourceCabKey=F_CENTRAL_mfcm100_x86,DestName=mfcm100.dll,Attributes=4608,FileSize=81744,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:692]: File: c:\Windows\system32\mfcm100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:692]: Source for file 'F_CENTRAL_mfcm100_x86' is compressed
+MSI (s) (68:58) [12:28:42:697]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_mfcm100u_x86,Component={692BDA22-6D55-3EA3-904B-3117FA2B2D9E},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:698]: Executing op: FileCopy(SourceName=mfcm100u.dll,SourceCabKey=F_CENTRAL_mfcm100u_x86,DestName=mfcm100u.dll,Attributes=4608,FileSize=81744,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:699]: File: c:\Windows\system32\mfcm100u.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:699]: Source for file 'F_CENTRAL_mfcm100u_x86' is compressed
+MSI (s) (68:58) [12:28:42:703]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_msvcp100_x86,Component={E822F933-C70D-3CF4-A92D-7263B8ACCF30},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:703]: Executing op: FileCopy(SourceName=msvcp100.dll,SourceCabKey=F_CENTRAL_msvcp100_x86,DestName=msvcp100.dll,Attributes=4608,FileSize=421200,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:705]: File: c:\Windows\system32\msvcp100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:705]: Source for file 'F_CENTRAL_msvcp100_x86' is compressed
+MSI (s) (68:58) [12:28:42:712]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_msvcr100_x86,Component={9983C931-37BE-3C6E-AD32-8B6E789B6881},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:713]: Executing op: FileCopy(SourceName=msvcr100.dll,SourceCabKey=F_CENTRAL_msvcr100_x86,DestName=msvcr100.dll,Attributes=4608,FileSize=773968,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:715]: File: c:\Windows\system32\msvcr100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:715]: Source for file 'F_CENTRAL_msvcr100_x86' is compressed
+MSI (s) (68:58) [12:28:42:730]: Executing op: RegisterSharedComponentProvider(,,File=F_CENTRAL_vcomp100_x86,Component={CED7B6A0-2035-37FB-9F32-8C5C38AC6535},ComponentVersion=10.0.40219.325,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,PatchSize=0,PatchAttributes=0,PatchSequence=0,SharedComponent=0,IsFullFile=0)
+MSI (s) (68:58) [12:28:42:731]: Executing op: FileCopy(SourceName=vcomp100.dll,SourceCabKey=F_CENTRAL_vcomp100_x86,DestName=vcomp100.dll,Attributes=4608,FileSize=51024,PerTick=65536,,VerifyMedia=1,,,,,CheckCRC=0,Version=10.0.40219.325,Language=1033,InstallMode=58982400,,,,,,,)
+MSI (s) (68:58) [12:28:42:732]: File: c:\Windows\system32\vcomp100.dll;	To be installed;	Won't patch;	No existing file
+MSI (s) (68:58) [12:28:42:732]: Source for file 'F_CENTRAL_vcomp100_x86' is compressed
+MSI (s) (68:58) [12:28:42:735]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_atl100_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,MediaCabinet=1\vc_red.cab,,,CopierFlags=9,FileSize=138056,,,,,)
+MSI (s) (68:58) [12:28:42:757]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=4397384,,,,,)
+MSI (s) (68:58) [12:28:42:823]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100chs_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=36176,,,,,)
+MSI (s) (68:58) [12:28:42:827]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100cht_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=36176,,,,,)
+MSI (s) (68:58) [12:28:42:831]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100deu_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=64336,,,,,)
+MSI (s) (68:58) [12:28:42:835]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100enu_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=55120,,,,,)
+MSI (s) (68:58) [12:28:42:838]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100esn_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=63824,,,,,)
+MSI (s) (68:58) [12:28:42:843]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100fra_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=64336,,,,,)
+MSI (s) (68:58) [12:28:42:847]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100ita_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=62288,,,,,)
+MSI (s) (68:58) [12:28:42:851]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100jpn_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=43856,,,,,)
+MSI (s) (68:58) [12:28:42:856]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100kor_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=43344,,,,,)
+MSI (s) (68:58) [12:28:42:859]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100rus_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=60752,,,,,)
+MSI (s) (68:58) [12:28:42:863]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfc100u_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=4422992,,,,,)
+MSI (s) (68:58) [12:28:42:927]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfcm100_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=81744,,,,,)
+MSI (s) (68:58) [12:28:42:932]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_mfcm100u_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=81744,,,,,)
+MSI (s) (68:58) [12:28:42:936]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_msvcp100_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=421200,,,,,)
+MSI (s) (68:58) [12:28:42:944]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_msvcr100_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=773968,,,,,)
+MSI (s) (68:58) [12:28:42:959]: Executing op: CacheRTMFile(,FileKey=F_CENTRAL_vcomp100_x86,,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},ProductVersion=10.0.40219,Attributes=512,,,,CopierFlags=1,FileSize=51024,,,,,)
+MSI (s) (68:58) [12:28:42:963]: Executing op: CacheSizeFlush(,)
+MSI (s) (68:58) [12:28:42:964]: Executing op: ActionStart(Name=WriteRegistryValues,Description=Writing system registry values,Template=Key: [1], Name: [2], Value: [3])
+MSI (s) (68:58) [12:28:42:966]: Executing op: ProgressTotal(Total=78,Type=1,ByteEquivalent=13200)
+MSI (s) (68:58) [12:28:42:967]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\VisualStudio\10.0\VC\VCRedist\x86,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:967]: Executing op: RegAddValue(Name=Version,Value=v10.0.40219.325,)
+MSI (s) (68:58) [12:28:42:969]: Executing op: RegAddValue(Name=Installed,Value=#1,)
+MSI (s) (68:58) [12:28:42:970]: Executing op: RegAddValue(Name=MajorVersion,Value=#10,)
+MSI (s) (68:58) [12:28:42:971]: Executing op: RegAddValue(Name=MinorVersion,Value=#0,)
+MSI (s) (68:58) [12:28:42:972]: Executing op: RegAddValue(Name=Bld,Value=#40219,)
+MSI (s) (68:58) [12:28:42:973]: Executing op: RegAddValue(Name=Rbld,Value=#325,)
+MSI (s) (68:58) [12:28:42:975]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\red\x86\1033,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:975]: Executing op: RegAddValue(Name=Install,Value=#1,)
+MSI (s) (68:58) [12:28:42:977]: Executing op: RegAddValue(Name=InstallerType,Value=MSI,)
+MSI (s) (68:58) [12:28:42:978]: Executing op: RegAddValue(Name=SP,Value=#1,)
+MSI (s) (68:58) [12:28:42:979]: Executing op: RegAddValue(Name=SPIndex,Value=#0,)
+MSI (s) (68:58) [12:28:42:980]: Executing op: RegAddValue(Name=SPName,Value=SP1,)
+MSI (s) (68:58) [12:28:42:981]: Executing op: RegAddValue(Name=Version,Value=40219.325,)
+MSI (s) (68:58) [12:28:42:982]: Executing op: RegAddValue(Name=Bld,Value=#40219,)
+MSI (s) (68:58) [12:28:42:983]: Executing op: RegAddValue(Name=Rbld,Value=#325,)
+MSI (s) (68:58) [12:28:42:984]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:984]: Executing op: RegAddValue(Name=SP,Value=#1,)
+MSI (s) (68:58) [12:28:42:986]: Executing op: RegAddValue(Name=SPIndex,Value=#0,)
+MSI (s) (68:58) [12:28:42:987]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\red,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:987]: Executing op: RegAddValue(Name=Install,Value=#1,)
+MSI (s) (68:58) [12:28:42:988]: Executing op: RegAddValue(Name=InstallerType,Value=MSI,)
+MSI (s) (68:58) [12:28:42:989]: Executing op: RegAddValue(Name=SP,Value=#1,)
+MSI (s) (68:58) [12:28:42:990]: Executing op: RegAddValue(Name=SPIndex,Value=#0,)
+MSI (s) (68:58) [12:28:42:992]: Executing op: RegAddValue(Name=SPName,Value=SP1,)
+MSI (s) (68:58) [12:28:42:993]: Executing op: RegAddValue(Name=Version,Value=40219.325,)
+MSI (s) (68:58) [12:28:42:994]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:994]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\DevDiv\vc\Servicing\10.0\red\1033,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:42:994]: Executing op: RegAddValue(Name=Install,Value=#1,)
+MSI (s) (68:58) [12:28:42:996]: Executing op: RegAddValue(Name=InstallerType,Value=MSI,)
+MSI (s) (68:58) [12:28:42:997]: Executing op: RegAddValue(Name=SP,Value=#1,)
+MSI (s) (68:58) [12:28:42:998]: Executing op: RegAddValue(Name=SPIndex,Value=#0,)
+MSI (s) (68:58) [12:28:42:999]: Executing op: RegAddValue(Name=SPName,Value=SP1,)
+MSI (s) (68:58) [12:28:43:000]: Executing op: RegAddValue(Name=Version,Value=40219.325,)
+MSI (s) (68:58) [12:28:43:001]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2467173,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:001]: Executing op: RegAddValue(,Value=KB2467173,)
+MSI (s) (68:58) [12:28:43:003]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\KB2467173,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:003]: Executing op: RegAddValue(Name=ThisVersionInstalled,Value=Y,)
+MSI (s) (68:58) [12:28:43:004]: Executing op: RegAddValue(Name=PackageName,Value=Hotfix for Microsoft Visual C++ 2010  x86 Redistributable (KB2467173),)
+MSI (s) (68:58) [12:28:43:005]: Executing op: RegAddValue(Name=PackageVersion,Value=1,)
+MSI (s) (68:58) [12:28:43:006]: Executing op: RegAddValue(Name=Publisher,Value=Microsoft Corporation,)
+MSI (s) (68:58) [12:28:43:007]: Executing op: RegAddValue(Name=PublishingGroup,Value=Developer Division,)
+MSI (s) (68:58) [12:28:43:009]: Executing op: RegAddValue(Name=ReleaseType,Value=Hotfix,)
+MSI (s) (68:58) [12:28:43:010]: Executing op: RegAddValue(Name=InstalledBy,Value=SleepTheGod,)
+MSI (s) (68:58) [12:28:43:011]: Executing op: RegAddValue(Name=InstalledDate,Value=9/13/2021,)
+MSI (s) (68:58) [12:28:43:012]: Executing op: RegAddValue(Name=InstallerName,Value=Windows Installer,)
+MSI (s) (68:58) [12:28:43:013]: Executing op: RegAddValue(Name=InstallerVersion,Value=5.00,)
+MSI (s) (68:58) [12:28:43:014]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2151757,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:014]: Executing op: RegAddValue(,Value=KB2151757,)
+MSI (s) (68:58) [12:28:43:016]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\KB2151757,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:016]: Executing op: RegAddValue(Name=ThisVersionInstalled,Value=Y,)
+MSI (s) (68:58) [12:28:43:017]: Executing op: RegAddValue(Name=PackageName,Value=Hotfix for Microsoft Visual C++ 2010  x86 Redistributable (KB2151757),)
+MSI (s) (68:58) [12:28:43:018]: Executing op: RegAddValue(Name=PackageVersion,Value=1,)
+MSI (s) (68:58) [12:28:43:019]: Executing op: RegAddValue(Name=Publisher,Value=Microsoft Corporation,)
+MSI (s) (68:58) [12:28:43:020]: Executing op: RegAddValue(Name=PublishingGroup,Value=Developer Division,)
+MSI (s) (68:58) [12:28:43:022]: Executing op: RegAddValue(Name=ReleaseType,Value=Hotfix,)
+MSI (s) (68:58) [12:28:43:023]: Executing op: RegAddValue(Name=InstalledBy,Value=SleepTheGod,)
+MSI (s) (68:58) [12:28:43:024]: Executing op: RegAddValue(Name=InstalledDate,Value=9/13/2021,)
+MSI (s) (68:58) [12:28:43:025]: Executing op: RegAddValue(Name=InstallerName,Value=Windows Installer,)
+MSI (s) (68:58) [12:28:43:027]: Executing op: RegAddValue(Name=InstallerVersion,Value=5.00,)
+MSI (s) (68:58) [12:28:43:028]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB982573,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:028]: Executing op: RegAddValue(,Value=KB982573,)
+MSI (s) (68:58) [12:28:43:029]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\KB982573,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:029]: Executing op: RegAddValue(Name=ThisVersionInstalled,Value=Y,)
+MSI (s) (68:58) [12:28:43:030]: Executing op: RegAddValue(Name=PackageName,Value=Hotfix for Microsoft Visual C++ 2010  x86 Redistributable (KB982573),)
+MSI (s) (68:58) [12:28:43:032]: Executing op: RegAddValue(Name=PackageVersion,Value=1,)
+MSI (s) (68:58) [12:28:43:033]: Executing op: RegAddValue(Name=Publisher,Value=Microsoft Corporation,)
+MSI (s) (68:58) [12:28:43:034]: Executing op: RegAddValue(Name=PublishingGroup,Value=Developer Division,)
+MSI (s) (68:58) [12:28:43:035]: Executing op: RegAddValue(Name=ReleaseType,Value=Hotfix,)
+MSI (s) (68:58) [12:28:43:036]: Executing op: RegAddValue(Name=InstalledBy,Value=SleepTheGod,)
+MSI (s) (68:58) [12:28:43:037]: Executing op: RegAddValue(Name=InstalledDate,Value=9/13/2021,)
+MSI (s) (68:58) [12:28:43:039]: Executing op: RegAddValue(Name=InstallerName,Value=Windows Installer,)
+MSI (s) (68:58) [12:28:43:040]: Executing op: RegAddValue(Name=InstallerVersion,Value=5.00,)
+MSI (s) (68:58) [12:28:43:041]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\VisualStudio\10.0\VC\VCRedist\x86\KB2565063,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:041]: Executing op: RegAddValue(Name=Present,Value=#1,)
+MSI (s) (68:58) [12:28:43:042]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2524860,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:042]: Executing op: RegAddValue(,Value=KB2524860,)
+MSI (s) (68:58) [12:28:43:044]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2544655,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:044]: Executing op: RegAddValue(,Value=KB2544655,)
+MSI (s) (68:58) [12:28:43:045]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2549743,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:045]: Executing op: RegAddValue(,Value=KB2549743,)
+MSI (s) (68:58) [12:28:43:046]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}.KB2565063,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:046]: Executing op: RegAddValue(,Value=KB2565063,)
+MSI (s) (68:58) [12:28:43:048]: Executing op: RegOpenKey(Root=-2147483646,Key=SOFTWARE\Microsoft\Updates\Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219\SP1\KB2565063,,BinaryType=0,,)
+MSI (s) (68:58) [12:28:43:048]: Executing op: RegAddValue(Name=ThisVersionInstalled,Value=Y,)
+MSI (s) (68:58) [12:28:43:050]: Executing op: RegAddValue(Name=InstalledBy,Value=SleepTheGod,)
+MSI (s) (68:58) [12:28:43:051]: Executing op: RegAddValue(Name=InstalledDate,Value=9/13/2021,)
+MSI (s) (68:58) [12:28:43:052]: Executing op: RegAddValue(Name=InstallerName,Value=Windows Installer,)
+MSI (s) (68:58) [12:28:43:053]: Executing op: RegAddValue(Name=InstallerVersion,Value=5.00,)
+MSI (s) (68:58) [12:28:43:054]: Executing op: RegAddValue(Name=PackageName,Value=Hotfix for Microsoft Visual C++ 2010  x86 Redistributable (KB2565063),)
+MSI (s) (68:58) [12:28:43:056]: Executing op: RegAddValue(Name=PackageVersion,Value=1,)
+MSI (s) (68:58) [12:28:43:057]: Executing op: RegAddValue(Name=Publisher,Value=Microsoft Corporation,)
+MSI (s) (68:58) [12:28:43:058]: Executing op: RegAddValue(Name=PublishingGroup,Value=Developer Division,)
+MSI (s) (68:58) [12:28:43:059]: Executing op: RegAddValue(Name=ReleaseType,Value=Hotfix,)
+MSI (s) (68:58) [12:28:43:060]: Executing op: ActionStart(Name=RegisterProduct,Description=Registering product,Template=[1])
+MSI (s) (68:58) [12:28:43:061]: Executing op: ChangeMedia(,MediaPrompt=Please insert the disk: 1,MediaCabinet=1\vc_red.cab,BytesPerTick=0,CopierType=1,,,SignatureRequired=1,SignatureCert=BinaryData,,IsFirstPhysicalMedia=1)
+MSI (s) (68:58) [12:28:43:061]: Executing op: DatabaseCopy(DatabasePath=c:\Windows\Installer\229499.msi,ProductCode={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},,,)
+MSI (s) (68:58) [12:28:43:061]: Note: 1: 1402 2: UNKNOWN\Products\1D5E3C0FEDA1E123187686FED06E995A\InstallProperties 3: 2 
+MSI (s) (68:58) [12:28:43:065]: Note: 1: 2318 2: c:\Windows\Installer\22949d.msi 
+MSI (s) (68:58) [12:28:43:065]: File will have security applied from OpCode.
+MSI (s) (68:58) [12:28:43:069]: Executing op: ProductRegister(UpgradeCode={1F4F1D2A-D9DA-32CF-9909-48485DA06DD5},VersionString=10.0.40219,HelpLink=http://go.microsoft.com/fwlink/?LinkId=146008,,,InstallSource=c:\090cbc94696687b6821f\,Publisher=Microsoft Corporation,,,,NoModify=1,NoRepair=1,,Comments=Caution. Removing this product might prevent some applications from running.,,,,,EstimatedSize=11417,,,,)
+MSI (s) (68:58) [12:28:43:079]: Executing op: ProductCPDisplayInfoRegister()
+MSI (s) (68:58) [12:28:43:080]: Executing op: ActionStart(Name=PublishFeatures,Description=Publishing Product Features,Template=Feature: [1])
+MSI (s) (68:58) [12:28:43:081]: Executing op: FeaturePublish(Feature=VCRedist_x86_enu,,Absent=2,Component=Wp%URtNNf4pv{b8Pkg*GGy0yqIBDk=ixr'A^Tnp[(2vVBtL256(4dSy(fc+%@]qDYt,uK7W@xTK}UAZQaoe[s)b9Z7%3izG4qOc3YX7ye]Mnw6R?ms[Lp)%=KV&7.KK){443JuF46k}a,Hsh$*{q^3x9Fiy[FeVfeu1mIx{5.8LYZN*pQ5pZO7,*W`&4H7`BLBkx^ac1+9zLn)9d'8G)8.?7y7JhZ)nUH3.K-4`RBxh~,tu88I8O9bN8E7Qrq1cKUf&_By9D9]Nli3F7E}Lm$nT5]TeOUyE+c5dDShHD'%N(GuX]mpDBJ7EsSh1v7o1BlYcxL4Eru3ndIeYKryW3N7jEptj`p34LsXFWZG_]fR^[E$.2s3^leSc{ohHx}SePk[fD~54NAhERrh15)
+MSI (s) (68:58) [12:28:43:095]: Executing op: FeaturePublish(Feature=VC_RED_enu_x86_net_SETUP,,Absent=2,Component=I&]4Y1T^LAV3~}wXdriOmw0xVF+l_=Q@kZ+QvN'a2`DU1Tq'j?`KMU-Ft8S5,'R-4,?609aI--w``r^zlJu?E[k6g8cqPj6cCQT79n5VcF@7F=Cax6M(1rSM2I&r4}tKx@m`[FwoZX-mp0NTZ@Cd_9HE&b%'D2CD7(F-]h}uX=+T$bO?xek$@hFJt^gW)@fZwvUlYqpKX,3ygj7u5@_]3znRR&^mQ19+OI_JX@u)?`b!'j8y&KBcR1JNh?hJ6r@JQD3^QS-Xbi7IF@2ZOEbCUuxi-@2Qpz&F5=4I-qIGM%Mj)^[@2PSO!@urrWK_j8gXhLvZCW=j`@6Z)_neyg86d$=l'zfNdAQY2jI5k3r)L?1hx0sbF9O+cc,QT%2ScL*FZPK%n?[8zQ'bMW_B+A8OZ?*I,=tBP,D^RS@PE9~TyG(sQ9I-,p_Pl9RK?_h_h}mh[9Pm_dQqd_R2.L$!Fo3Sp@.nk~Ao'5dbS6yfA$RG6AbHQ(?)_'46eDOTj)rt?@q+X?I&pL0O)
+MSI (s) (68:58) [12:28:43:097]: Executing op: FeaturePublish(Feature=Servicing_Key,,Absent=2,Component=99ZN)wPA6869oDU?]N&L.p,*OF&]^6@zQFC-JRbrFxE@Z).YV3mw4xdt4Njg%ko5,=T8x5M9NI.YFaYo)
+MSI (s) (68:58) [12:28:43:099]: Executing op: FeaturePublish(Feature=KB2467173,Parent=Servicing_Key,Absent=2,Component==jSAuE4~66Yjp1!S=J=?DeZ~3(dz98qRDKYeEkAc@pWbV!bT[7q_p,yz!c1AhF]GR]QCI4hiR!2o]IEH)
+MSI (s) (68:58) [12:28:43:101]: Executing op: FeaturePublish(Feature=KB2151757,Parent=Servicing_Key,Absent=2,Component=G9Z$kSdB$7!0&0tZ&'QSz-l(]eiLN5vH6qchCgla+9PScbRd&6CWt`_FjuZP[7V'[g5R`35E{AZT2VZy)
+MSI (s) (68:58) [12:28:43:103]: Executing op: FeaturePublish(Feature=KB982573,Parent=Servicing_Key,Absent=2,Component=B,pXcP{uW3I)$%TNwqjHckFQ+J=Ky3?hsrZ*BcZLhk9p+]%2Z7.0950fQ60&!{CHxGvQH5TR3u?UZ`E^)
+MSI (s) (68:58) [12:28:43:104]: Executing op: FeaturePublish(Feature=KB2565063,Parent=Servicing_Key,Absent=2,Component=`?UH0%HL'7N02m_m{92CJ!Bzn8O+K69qCa'P5Of.7bM[ur3Bn7?_,_uCq1X[CZZm]}8Y,6V1z3i{1XlY)
+MSI (s) (68:58) [12:28:43:106]: Executing op: FeaturePublish(Feature=FT_VCRedist_x86_KB2565063_Detection,,Absent=2,Component=G1xD9*e4s7F=,?qsa9XO)
+MSI (s) (68:58) [12:28:43:108]: Executing op: FeaturePublish(Feature=KB2524860,Parent=Servicing_Key,Absent=2,Component=@KTrBdtjv5yIB.ru?L$1NSR2T}2MI8u.Jo3tp7%5y8^aG=Bda31fi)oS~HZYbXd4eZrmH6_h@zKw=ZuW)
+MSI (s) (68:58) [12:28:43:110]: Executing op: FeaturePublish(Feature=KB2544655,Parent=Servicing_Key,Absent=2,Component=QYjYP+zTA5m{1aW6Cl,)+cmQ=H&]t7el%h0'!oU5oyw$*E@)o3VUTVUpqkpohJPkAsQfk5}uP~GIcO=h)
+MSI (s) (68:58) [12:28:43:112]: Executing op: FeaturePublish(Feature=KB2549743,Parent=Servicing_Key,Absent=2,Component=v$yD3jGnt5AZY+h8Ogtusp_AzZKzl7jP@u0w8M!JZ_.kKx3hL3bl3zg2RC@?Yawnq3e5{3V(mf&bn)KD)
+MSI (s) (68:58) [12:28:43:114]: Executing op: ActionStart(Name=PublishProduct,Description=Publishing product information,)
+MSI (s) (68:58) [12:28:43:114]: Executing op: CleanupConfigData()
+MSI (s) (68:58) [12:28:43:114]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\1D5E3C0FEDA1E123187686FED06E995A\Patches 3: 2 
+MSI (s) (68:58) [12:28:43:115]: Executing op: PatchRegister(PatchId={6F8500D2-A80F-3347-9081-B41E71C8592B},NewState=2,OldState=1,TransformList=:SP1.1;:#SP1.1,Uninstallable=1,LUAEnabled=0,PatchType=0,DisplayName=KB2565063,MoreInfoURL=http://www.microsoft.com/)
+MSI (s) (68:58) [12:28:43:118]: Executing op: SourceListPublish(PatchCode={6F8500D2-A80F-3347-9081-B41E71C8592B},PatchPackageName=msp_kb2565063.msp,DiskPromptTemplate=[1],,NumberOfDisks=1)
+MSI (s) (68:58) [12:28:43:118]: Note: 1: 1402 2: UNKNOWN\Installer\Patches\2D0058F6F08A743309184BE1178C95B2\SourceList 3: 2 
+MSI (s) (68:58) [12:28:43:119]: Executing op: PatchSourceListRegisterLastUsed(PatchCode={6F8500D2-A80F-3347-9081-B41E71C8592B},LastUsedSource=c:\090cbc94696687b6821f\)
+MSI (s) (68:58) [12:28:43:119]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (68:58) [12:28:43:119]: Specifed source is already in a list.
+MSI (s) (68:58) [12:28:43:119]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (68:58) [12:28:43:119]: Adding new sources is allowed.
+MSI (s) (68:58) [12:28:43:119]: Set LastUsedSource to: c:\090cbc94696687b6821f\.
+MSI (s) (68:58) [12:28:43:119]: Set LastUsedType to: n.
+MSI (s) (68:58) [12:28:43:119]: Set LastUsedIndex to: 1.
+MSI (s) (68:58) [12:28:43:120]: Executing op: PatchCache(PatchId={6F8500D2-A80F-3347-9081-B41E71C8592B},PatchPath=c:\Windows\Installer\22949a.msp)
+MSI (s) (68:58) [12:28:43:120]: Note: 1: 1402 2: UNKNOWN\Patches\2D0058F6F08A743309184BE1178C95B2 3: 2 
+MSI (s) (68:58) [12:28:43:123]: Note: 1: 2318 2: c:\Windows\Installer\22949e.msp 
+MSI (s) (68:58) [12:28:43:123]: File will have security applied from OpCode.
+MSI (s) (68:58) [12:28:43:134]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=0,Remove=0)
+MSI (s) (68:58) [12:28:43:135]: Executing op: RegisterPatchOrder(Continue=0,SequenceType=1,Remove=0)
+MSI (s) (68:58) [12:28:43:136]: Executing op: ProductPublish(PackageKey={461C455E-DA40-49B3-871B-14308CC7CEFF})
+MSI (s) (68:58) [12:28:43:139]: Executing op: UpgradeCodePublish(UpgradeCode={1F4F1D2A-D9DA-32CF-9909-48485DA06DD5})
+MSI (s) (68:58) [12:28:43:140]: Executing op: SourceListPublish(,,DiskPromptTemplate=[1],,NumberOfDisks=2)
+MSI (s) (68:58) [12:28:43:140]: Note: 1: 1402 2: UNKNOWN\Installer\Products\1D5E3C0FEDA1E123187686FED06E995A\SourceList 3: 2 
+MSI (s) (68:58) [12:28:43:160]: Executing op: ProductPublishClient(,,)
+MSI (s) (68:58) [12:28:43:160]: Executing op: SourceListRegisterLastUsed(SourceProduct={F0C3E5D1-1ADE-321E-8167-68EF0DE699A5},LastUsedSource=c:\090cbc94696687b6821f\)
+MSI (s) (68:58) [12:28:43:160]: Entering CMsiConfigurationManager::SetLastUsedSource.
+MSI (s) (68:58) [12:28:43:161]: Specifed source is already in a list.
+MSI (s) (68:58) [12:28:43:161]: User policy value 'SearchOrder' is 'nmu'
+MSI (s) (68:58) [12:28:43:161]: Adding new sources is allowed.
+MSI (s) (68:58) [12:28:43:161]: Set LastUsedSource to: c:\090cbc94696687b6821f\.
+MSI (s) (68:58) [12:28:43:161]: Set LastUsedType to: n.
+MSI (s) (68:58) [12:28:43:161]: Set LastUsedIndex to: 1.
+MSI (s) (68:58) [12:28:43:161]: Executing op: ActionStart(Name=InstallFinalize,,)
+MSI (s) (68:58) [12:28:43:162]: Executing op: CleanupTempFiles(TempFiles=c:\Windows\Installer\22949a.msp)
+MSI (s) (68:58) [12:28:43:162]: Scheduling file 'c:\Windows\Installer\22949a.msp' for deletion during post-install cleanup (not post-reboot).
+MSI (s) (68:58) [12:28:43:163]: Executing op: End(Checksum=0,ProgressTotalHDWord=0,ProgressTotalLDWord=15117328)
+MSI (s) (68:58) [12:28:43:191]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (68:58) [12:28:43:192]: User policy value 'DisableRollback' is 0
+MSI (s) (68:58) [12:28:43:192]: Machine policy value 'DisableRollback' is 0
+MSI (s) (68:58) [12:28:43:197]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (68:58) [12:28:43:241]: Note: 1: 2318 2:  
+MSI (s) (68:58) [12:28:43:243]: No System Restore sequence number for this installation.
+MSI (s) (68:58) [12:28:43:243]: Unlocking Server
+MSI (s) (68:58) [12:28:43:280]: PROPERTY CHANGE: Deleting UpdateStarted property. Its current value is '1'.
+MSI (s) (68:58) [12:28:43:281]: Skipping action: DDSE_CA_Uninstall_InstallFinalizePost_x86 (condition is false)
+MSI (s) (68:58) [12:28:43:281]: Doing action: RemoveExistingProducts
+MSI (s) (68:58) [12:28:43:281]: Note: 1: 2205 2:  3: ActionText 
+Action ended 12:28:43: InstallFinalize. Return value 1.
+Action start 12:28:43: RemoveExistingProducts.
+MSI (s) (68:58) [12:28:43:285]: Skipping action: DDSE_CA_Uninstall_InstallExecuteSequenceEnds_x86 (condition is false)
+MSI (s) (68:58) [12:28:43:285]: Skipping action: DDSE_CA_Uninstall_CleanupDDSEDir_x86 (condition is false)
+Action ended 12:28:43: RemoveExistingProducts. Return value 1.
+Action ended 12:28:43: INSTALL. Return value 1.
+Property(S): DiskPrompt = [1]
+Property(S): UpgradeCode = {1F4F1D2A-D9DA-32CF-9909-48485DA06DD5}
+Property(S): REDISTFOUNDVER = #1
+Property(S): TARGETDIR = c:\
+Property(S): VCMsM.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\Program Files\Common Files\Microsoft Shared\VC\
+Property(S): SystemFolder_x86_VC = c:\Windows\system32\
+Property(S): CSetupMM_URT_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\
+Property(S): DR_54322.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\
+Property(S): KB2467173.Classification = Hotfix
+Property(S): KB2151757.Classification = Hotfix
+Property(S): KB982573.Classification = Hotfix
+Property(S): ProgramFilesFolder2_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Program Files\
+Property(S): ProgramFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\Program Files\
+Property(S): CommonFilesFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\Program Files\Common Files\
+Property(S): WindowsVolume_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\
+Property(S): WindowsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Windows\
+Property(S): SystemFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Windows\system32\
+Property(S): System16Folder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Windows\system\
+Property(S): TempFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Users\SLEEPT~1\AppData\Local\Temp\
+Property(S): StartMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\ProgramData\Microsoft\Windows\Start Menu\
+Property(S): ProgramMenuFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+Property(S): CommonAppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\ProgramData\
+Property(S): AppDataFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Users\SleepTheGod\AppData\Roaming\
+Property(S): DesktopFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\Users\Public\Desktop\
+Property(S): AdminToolsFolder_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): WindowsFolder_x86_VC = c:\Windows\
+Property(S): RTM_ProductName = Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Property(S): SourceDir = c:\090cbc94696687b6821f\
+Property(S): MSShared_x86.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\Program Files\Common Files\Microsoft Shared\
+Property(S): VS7.3643236F_FC70_11D3_A536_0090278A1BB8 = c:\Program Files\Microsoft Visual Studio 10.0\
+Property(S): ProgramFilesFolder = C:\Program Files\
+Property(S): VersionNT = 603
+Property(S): Manufacturer = Microsoft Corporation
+Property(S): ProductCode = {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}
+Property(S): ProductLanguage = 0
+Property(S): ProductName = Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219
+Property(S): ProductVersion = 10.0.40219
+Property(S): ALLUSERS = 1
+Property(S): VSAssemblyVersion80 = 8.0.0.0
+Property(S): VSAssemblyVersion90 = 9.0.0.0
+Property(S): VSAssemblyVersion100 = 10.0.0.0
+Property(S): VSAssemblyVersion = 10.0.0.0
+Property(S): ARPHELPLINK = http://go.microsoft.com/fwlink/?LinkId=146008
+Property(S): ARPCOMMENTS = Caution. Removing this product might prevent some applications from running.
+Property(S): ARPNOMODIFY = 1
+Property(S): ARPURLUpdateInfo = http://go.microsoft.com/fwlink/?LinkId=146008
+Property(S): comspec_cmd = %comspec%
+Property(S): DDPatch = 0
+Property(S): FeatureID = 1
+Property(S): FILESINUSETEXT = The following applications should be closed before continuing the install:
+Property(S): FXAssemblyVersion = 4.0.0.0
+Property(S): FXAssemblyVersion35 = 3.5.0.0
+Property(S): INSTALLLEVEL = 2
+Property(S): LIMITUI = 1
+Property(S): NullGUID = {00000000-0000-0000-0000-000000000000}
+Property(S): PrimaryDir = VS7.3643236F_FC70_11D3_A536_0090278A1BB8
+Property(S): REBOOT = Suppress
+Property(S): ReserveAdditionalCostVS7UI = 8388608
+Property(S): RunCount = 49
+Property(S): UpdateProp1 = 0
+Property(S): UpdateProp2 = 0
+Property(S): UpdateProp3 = 0
+Property(S): UpdateProp4 = 0
+Property(S): UpdateProp5 = 0
+Property(S): UserNameRegEntryName = UserName
+Property(S): ARPNOREPAIR = 0
+Property(S): BuildType = ret
+Property(S): URTVersion = v4.0.30319
+Property(S): LocProductName = Microsoft Visual C++ 2010  x86 Redistributable
+Property(S): ProductCPU = x86
+Property(S): ProductEdition = RED
+Property(S): ProductFamily = VC
+Property(S): ProductImage = net
+Property(S): RTM_ProductVersion = 10.0.40219.01
+Property(S): ProductVersionHigh = 655360
+Property(S): ProductVersionLow = 2635792709
+Property(S): MSPSRC6F8500D2A80F33479081B41E71C8592B = c:\Windows\Installer\22949a.msp
+Property(S): DirectoryTable100_x86 = DirectoryTable
+Property(S): SecureCustomProperties = IE501FOUND.3643236F_FC70_11D3_A536_0090278A1BB8;INSTALLBLOCKFOUND.3643236F_FC70_11D3_A536_0090278A1BB8;JSHFOUNDVER;NEWERVCREDISTVERSIONDETECTED;OCMFOUNDVER;OCMFOUNDVERLANG;REDISTFOUNDVER;REDISTFOUNDVERLANG;UNINSTALLBLOCKFOUND.3643236F_FC70_11D3_A536_0090278A1BB8;UPGRADEVCREDIST
+Property(S): MsiLogFileLocation = C:\Users\SLEEPT~1\AppData\Local\Temp\Microsoft Visual C++ 2010  x86 Redistributable Setup_20210913_122834838-MSI_vc_red.msi.txt
+Property(S): KB2565063.Classification = Hotfix
+Property(S): Intel = 6
+Property(S): MSICLIENTUSESEXTERNALUI = 1
+Property(S): ShellAdvtSupport = 1
+Property(S): PATCH = c:\090cbc94696687b6821f\msp_kb2565063.msp
+Property(S): ScreenX = 1024
+Property(S): SystemLanguageID = 1033
+Property(S): ComputerName = SLEEPTHEGOD
+Property(S): UserLanguageID = 1033
+Property(S): UserSID = S-1-5-21-4224847350-146000577-252241561-1001
+Property(S): LogonUser = SleepTheGod
+Property(S): MsiTrueAdminUser = 1
+Property(S): AdminUser = 1
+Property(S): VirtualMemory = 2836
+Property(S): PhysicalMemory = 1910
+Property(S): FontsFolder = C:\Windows\Fonts\
+Property(S): GPTSupport = 1
+Property(S): OLEAdvtSupport = 1
+Property(S): AppDataFolder = C:\Users\SleepTheGod\AppData\Roaming\
+Property(S): NetHoodFolder = C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Network Shortcuts\
+Property(S): CommonFilesFolder = C:\Program Files\Common Files\
+Property(S): FavoritesFolder = C:\Users\SleepTheGod\Favorites\
+Property(S): DesktopFolder = C:\Users\Public\Desktop\
+Property(S): StartupFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+Property(S): StartMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\
+Property(S): ProgramMenuFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+Property(S): LocalAppDataFolder = C:\Users\SleepTheGod\AppData\Local\
+Property(S): AdminToolsFolder = C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools\
+Property(S): MyPicturesFolder = C:\Users\SleepTheGod\Pictures\
+Property(S): SendToFolder = C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\SendTo\
+Property(S): CommonAppDataFolder = C:\ProgramData\
+Property(S): TemplateFolder = C:\ProgramData\Microsoft\Windows\Templates\
+Property(S): PersonalFolder = C:\Users\SleepTheGod\Documents\
+Property(S): RecentFolder = C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Recent\
+Property(S): PrintHoodFolder = C:\Users\SleepTheGod\AppData\Roaming\Microsoft\Windows\Printer Shortcuts\
+Property(S): TempFolder = C:\Users\SLEEPT~1\AppData\Local\Temp\
+Property(S): KB2565063.AllowRemoval = 1
+Property(S): KB2565063.PatchCode = {6F8500D2-A80F-3347-9081-B41E71C8592B}
+Property(S): PATCHNEWPACKAGECODE = {6F8500D2-A80F-3347-9081-B41E71C8592B}
+Property(S): PATCHNEWSUMMARYSUBJECT = Hotfix for Microsoft Visual Studio 2010 - KB2565063
+Property(S): PATCHNEWSUMMARYCOMMENTS = KB2565063
+Property(S): PackageCode = {461C455E-DA40-49B3-871B-14308CC7CEFF}
+Property(S): VersionMsi = 5.00
+Property(S): RemoteAdminTS = 1
+Property(S): WindowsFolder = c:\Windows\
+Property(S): MsiNTProductType = 1
+Property(S): CLIENTUILEVEL = 3
+Property(S): MsiNTSuitePersonal = 1
+Property(S): CURRENTDIRECTORY = c:\090cbc94696687b6821f
+Property(S): ServicePackLevelMinor = 0
+Property(S): ServicePackLevel = 0
+Property(S): EXTUI = 1
+Property(S): PackagecodeChanging = 1
+Property(S): WindowsBuild = 9600
+Property(S): ProductState = -1
+Property(S): SystemFolder = C:\Windows\system32\
+Property(S): CLIENTPROCESSID = 4952
+Property(S): WindowsVolume = c:\
+Property(S): System16Folder = C:\Windows\system\
+Property(S): VersionDatabase = 200
+Property(S): msp = c:\090cbc94696687b6821f\msp_kb2565063.msp
+Property(S): ScreenY = 768
+Property(S): CaptionHeight = 19
+Property(S): BorderTop = 1
+Property(S): BorderSide = 1
+Property(S): TextHeight = 16
+Property(S): TextInternalLeading = 3
+Property(S): ColorBits = 32
+Property(S): TTCSupport = 1
+Property(S): Time = 12:28:43
+Property(S): Date = 9/13/2021
+Property(S): MsiNetAssemblySupport = 4.8.3752.0
+Property(S): MsiWin32AssemblySupport = 6.3.18362.1
+Property(S): RedirectedDllSupport = 2
+Property(S): MsiRunningElevated = 1
+Property(S): Privileged = 1
+Property(S): USERNAME = intxturl@outlook.com
+Property(S): DATABASE = c:\Windows\Installer\229499.msi
+Property(S): OriginalDatabase = c:\090cbc94696687b6821f\vc_red.msi
+Property(S): UILevel = 2
+Property(S): ACTION = INSTALL
+Property(S): ROOTDRIVE = c:\
+Property(S): CostingComplete = 1
+Property(S): OutOfDiskSpace = 0
+Property(S): OutOfNoRbDiskSpace = 0
+Property(S): PrimaryVolumeSpaceAvailable = 0
+Property(S): PrimaryVolumeSpaceRequired = 0
+Property(S): PrimaryVolumeSpaceRemaining = 0
+Property(S): SOURCEDIR = c:\090cbc94696687b6821f\
+Property(S): SourcedirProduct = {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}
+Property(S): ProductToBeRegistered = 1
+MSI (s) (68:58) [12:28:43:371]: Product: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 - Update 'KB2565063' installed successfully.
+
+MSI (s) (68:58) [12:28:43:384]: Windows Installer installed an update. Product Name: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219. Product Version: 10.0.40219. Product Language: 0. Manufacturer: Microsoft Corporation. Update Name: KB2565063. Installation success or error status: 0.
+
+MSI (s) (68:58) [12:28:43:385]: Note: 1: 1707 
+MSI (s) (68:58) [12:28:43:385]: Product: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219 -- Installation completed successfully.
+
+MSI (s) (68:58) [12:28:43:385]: Windows Installer installed the product. Product Name: Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219. Product Version: 10.0.40219. Product Language: 0. Manufacturer: Microsoft Corporation. Installation success or error status: 0.
+
+MSI (s) (68:58) [12:28:43:400]: Attempting to delete file c:\Windows\Installer\22949a.msp
+MSI (s) (68:58) [12:28:43:415]: Deferring clean up of packages/files, if any exist
+MSI (s) (68:58) [12:28:43:415]: Attempting to delete file c:\Windows\Installer\22949a.msp
+MSI (s) (68:58) [12:28:43:415]: Unable to delete the file outside of the engine. LastError = 2
+MSI (s) (68:58) [12:28:43:415]: MainEngineThread is returning 0
+MSI (s) (68:94) [12:28:43:419]: RESTART MANAGER: Session closed.
+MSI (s) (68:94) [12:28:43:419]: No System Restore sequence number for this installation.
+=== Logging stopped: 9/13/2021  12:28:43 ===
+MSI (s) (68:94) [12:28:43:446]: User policy value 'DisableRollback' is 0
+MSI (s) (68:94) [12:28:43:446]: Machine policy value 'DisableRollback' is 0
+MSI (s) (68:94) [12:28:43:446]: Incrementing counter to disable shutdown. Counter after increment: 0
+MSI (s) (68:94) [12:28:43:446]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (68:94) [12:28:43:451]: Note: 1: 2265 2:  3: -2147287035 
+MSI (s) (68:94) [12:28:43:452]: Note: 1: 1402 2: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Installer\Rollback\Scripts 3: 2 
+MSI (s) (68:94) [12:28:43:453]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (s) (68:94) [12:28:43:453]: Post-install cleanup: removing installer file 'c:\Windows\Installer\22949a.msp'
+MSI (c) (58:3C) [12:28:43:455]: Decrementing counter to disable shutdown. If counter >= 0, shutdown will be denied.  Counter after decrement: -1
+MSI (c) (58:3C) [12:28:43:456]: MainEngineThread is returning 0
+=== Verbose logging stopped: 9/13/2021  12:28:43 ===
